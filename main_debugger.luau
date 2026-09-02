@@ -1,3 +1,26 @@
+local LogService = game:GetService("LogService")
+local logs = {}
+
+LogService.MessageOut:Connect(function(message, messageType)
+    table.insert(logs, message)
+end)
+
+local button = Instance.new("TextButton")
+button.Size = UDim2.fromOffset(180, 45)
+button.Position = UDim2.fromOffset(20, 100)
+button.Text = "COPY CONSOLE"
+button.Parent = (gethui and gethui()) or game:GetService("Players").LocalPlayer.PlayerGui
+
+button.MouseButton1Click:Connect(function()
+    if toclipboard then
+        toclipboard(table.concat(logs, "\n"))
+    elseif setclipboard then
+        setclipboard(table.concat(logs, "\n"))
+    else
+        warn("Clipboard API non disponibile")
+    end
+end)
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
