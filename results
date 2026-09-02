@@ -1,0 +1,687 @@
+[01:45:17] ========== LOGGER STARTED ==========
+[01:45:17] PlaceId = 9431156611
+[01:45:17] JobId = 114467bc-7158-4c2d-a9cb-c0d2bba88bbb
+[01:45:17] ========== INITIAL SNAPSHOT ==========
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.idle = StringValue
+[01:45:17] [INITIAL] PLAYER.Character = CosmicxisCursed
+[01:45:17] [INITIAL] CHAR.Attribute.Vulnerable = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder = Frame
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.VotekickPopup = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.ScaleDampeningPercent = NumberValue
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.LOCKED.Glow = ParticleEmitter
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Cmdr = true
+[01:45:17] [INITIAL] Humanoid.AutoRotate = true
+[01:45:17] [INITIAL] Humanoid.MaxHealth = 100
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed.HPGreen.UICorner = UICorner
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.climb = StringValue
+[01:45:17] [INITIAL] CHAR.Attribute.JumpPower = 50
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.Mesh = SpecialMesh
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.GloveSelection = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.ChatGui.ChatHolder = Frame
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed.HPGreen = Frame
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Left Leg = Part
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Pants = Pants
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.HUD = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Body Colors = BodyColors
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Static = false
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Hitmarker = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.MobileShiftLock = true
+[01:45:17] [INITIAL] CHAR.Attribute.Ragdolled = false
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed.UIStroke = UIStroke
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.run = StringValue
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.idle.Animation2.Weight = NumberValue
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Component = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.KickNotice = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.LoadingScreen = true
+[01:45:17] [INITIAL] Humanoid.JumpPower = 50
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Humanoid = Humanoid
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Settings = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.WinnerPopup = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Humanoid.Animator = Animator
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.WaterPhasingFix = LocalScript
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.PickVotekickUser = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart = Part
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head = Part
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.PlayerCard = false
+[01:45:17] [INITIAL] CHAR.Attribute.Power = 40
+[01:45:17] [INITIAL] Humanoid.Health = 100
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.face = Decal
+[01:45:17] [INITIAL] CHAR.Attribute.InBus = false
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Countdown = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HealthScript = Script
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.PlayerName = TextLabel
+[01:45:17] [INITIAL] Humanoid.Sit = false
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.FogSlowDebri = ParticleEmitter
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Killfeed = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.SlapReward = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Shirt = Shirt
+[01:45:17] [INITIAL] CHAR.Attribute.inMatch = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.MapEventNotice = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.Spectate = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Splash = Sound
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.EAbilityCooldown = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.LOCKED.Lightning = ParticleEmitter
+[01:45:17] [INITIAL] ROOT.Anchored = false
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.HealthEffects = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.JumpPrompt = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Climbing = Sound
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.WinScreen = true
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.ConsoleEmotes = true
+[01:45:17] [INITIAL] ROOT.AssemblyLinearVelocity = (0.00, 0.00, 0.00)
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.ChatGui = BillboardGui
+[01:45:17] [INITIAL] ROOT.CanCollide = false
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.ItemDrop = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.ChatGui.ChatHolder.Chat = TextLabel
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.GettingUp = Sound
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.fall = StringValue
+[01:45:17] [INITIAL] PLAYER.Attribute.ECooldownElementEnabled = false
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.PlayEmote = BindableFunction
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.ItemClient = LocalScript
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.Sound = Sound
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Right Leg = Part
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Right Arm = Part
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.MainChar = LocalScript
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate = LocalScript
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.LOCKED.FogSlow = ParticleEmitter
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Humanoid.Status = Status
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed.ActualHP = TextLabel
+[01:45:17] [INITIAL] CHAR.Attribute.inZone = false
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.Display = TextLabel
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Torso = Part
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui = BillboardGui
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.walk = StringValue
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.SlapRoyaleStateLogger = true
+[01:45:17] [INITIAL] CHAR.Attribute.SlapsDealt = 0
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Left Arm = Part
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Swimming = Sound
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Humanoid.HumanoidDescription = HumanoidDescription
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.GlowDebri = ParticleEmitter
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.TouchGui = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.UIListLayout = UIListLayout
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.MatchPlayerlist = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.FreeFalling = Sound
+[01:45:17] [INITIAL] Humanoid.WalkSpeed = 20
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.idle.Animation1.Weight = NumberValue
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed = Frame
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.toolnone = StringValue
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Humanoid.HumanoidDescription.BodyPartDescription = BodyPartDescription
+[01:45:17] [INITIAL] CHAR.Attribute.Kills = 0
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Jumping = Sound
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed.HPGreen.UIStroke = UIStroke
+[01:45:17] [INITIAL] Humanoid.State = Enum.HumanoidStateType.Running
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Torso.roblox = Decal
+[01:45:17] [INITIAL] CHAR.Attribute.WalkSpeed = 20
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Landing = Sound
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Died = Sound
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Head.HeadGui.HPHolder.HPRed.UICorner = UICorner
+[01:45:17] [INITIAL] PLAYER.CharacterParent = Workspace
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.jump = StringValue
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.LOCKED.Skull = ParticleEmitter
+[01:45:17] [INITIAL] Humanoid.PlatformStand = false
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.ConfirmKick = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Running = Sound
+[01:45:17] [INITIAL] GUI.Players.CosmicxisCursed.PlayerGui.DefeatScreen = true
+[01:45:17] [INITIAL] OBJECT.Workspace.CosmicxisCursed.Animate.sit = StringValue
+[01:45:17] ======================================
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (1.07, 0.00, 1.96)
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (1.07, 0.00, 1.96) -> (10.53, 0.00, 12.65)
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (10.53, 0.00, 12.65) -> (2.52, 0.00, 3.39)
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (2.52, 0.00, 3.39) -> (0.00, 0.00, 0.00)
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (10.24, 0.00, 13.81)
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (10.24, 0.00, 13.81) -> (11.93, 0.00, 16.05)
+[01:45:20] [CHANGED] ROOT.AssemblyLinearVelocity : (11.93, 0.00, 16.05) -> (11.81, 0.00, 16.14)
+[01:45:21] [CHANGED] ROOT.AssemblyLinearVelocity : (11.81, 0.00, 16.14) -> (0.00, 0.00, 0.00)
+[01:45:21] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (0.00, 0.00, 0.00)
+[01:45:21] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (0.00, 0.00, 0.00)
+[01:45:21] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (0.00, 0.00, 0.00)
+[01:45:24] [ADDED] CHAR.Attribute.AC_TeleportBypass = 85.89774706099888
+[01:45:24] [ADDED] CHAR.Attribute.AC_TeleportTarget = CFrame(-739.77, 318.50, -684.63)
+[01:45:24] [CHANGED] CHAR.Attribute.InBus : false -> true
+[01:45:24] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (0.00, 0.00, 0.00)
+[01:45:24] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
+[01:45:25] [REMOVED] CHAR.Attribute.AC_TeleportBypass = 85.89774706099888
+[01:45:25] [REMOVED] CHAR.Attribute.AC_TeleportTarget = CFrame(-739.77, 318.50, -684.63)
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, 0.00) -> (2.80, -8.99, 5.93)
+[01:45:39] [REMOVED] CHAR.Attribute.InBus = true
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.LandSound = Sound
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.RightWingTrail = Trail
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.LocalScript = LocalScript
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.Mesh = SpecialMesh
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (2.80, -8.99, 5.93) -> (9.85, -10.01, 20.19)
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.LeftWingTrail = Trail
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider = Tool
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle = Part
+[01:45:39] [ADDED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.CoreAttachment.VectorForce = VectorForce
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (9.85, -10.01, 20.19) -> (10.81, -11.03, 22.51)
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (10.81, -11.03, 22.51) -> (11.80, -12.05, 24.80)
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (11.80, -12.05, 24.80) -> (12.70, -12.95, 26.81)
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (12.70, -12.95, 26.81) -> (13.66, -13.88, 28.87)
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (13.66, -13.88, 28.87) -> (14.75, -14.93, 31.20)
+[01:45:39] [CHANGED] ROOT.AssemblyLinearVelocity : (14.75, -14.93, 31.20) -> (15.75, -15.89, 33.32)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (15.75, -15.89, 33.32) -> (16.78, -16.89, 35.51)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (16.78, -16.89, 35.51) -> (17.76, -17.88, 37.73)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (17.76, -17.88, 37.73) -> (18.55, -18.90, 40.11)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (18.55, -18.90, 40.11) -> (19.18, -19.86, 42.41)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (19.18, -19.86, 42.41) -> (19.99, -20.94, 44.94)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (19.99, -20.94, 44.94) -> (20.83, -21.93, 47.21)
+[01:45:40] [CHANGED] ROOT.AssemblyLinearVelocity : (20.83, -21.93, 47.21) -> (21.55, -22.90, 49.46)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (21.55, -22.90, 49.46) -> (22.28, -23.95, 51.94)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (22.28, -23.95, 51.94) -> (23.04, -24.94, 54.25)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (23.04, -24.94, 54.25) -> (24.23, -25.87, 56.22)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (24.23, -25.87, 56.22) -> (26.35, -26.89, 58.01)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (26.35, -26.89, 58.01) -> (29.04, -27.91, 59.48)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (29.04, -27.91, 59.48) -> (31.47, -28.87, 60.87)
+[01:45:41] [CHANGED] ROOT.AssemblyLinearVelocity : (31.47, -28.87, 60.87) -> (33.87, -29.87, 62.32)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (33.87, -29.87, 62.32) -> (36.49, -30.86, 63.61)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (36.49, -30.86, 63.61) -> (39.93, -31.88, 64.42)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (39.93, -31.88, 64.42) -> (43.63, -32.87, 64.83)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (43.63, -32.87, 64.83) -> (47.08, -33.80, 65.11)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (47.08, -33.80, 65.11) -> (50.45, -34.76, 65.43)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (50.45, -34.76, 65.43) -> (53.42, -35.72, 66.02)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (53.42, -35.72, 66.02) -> (56.02, -36.69, 66.88)
+[01:45:42] [CHANGED] ROOT.AssemblyLinearVelocity : (56.02, -36.69, 66.88) -> (58.42, -37.68, 68.00)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (58.42, -37.68, 68.00) -> (60.55, -38.64, 69.25)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (60.55, -38.64, 69.25) -> (62.65, -39.57, 70.42)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (62.65, -39.57, 70.42) -> (64.97, -40.62, 71.77)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (64.97, -40.62, 71.77) -> (66.93, -41.55, 73.06)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (66.93, -41.55, 73.06) -> (68.92, -42.48, 74.31)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (68.92, -42.48, 74.31) -> (71.02, -43.45, 75.55)
+[01:45:43] [CHANGED] ROOT.AssemblyLinearVelocity : (71.02, -43.45, 75.55) -> (73.19, -44.41, 76.73)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (73.19, -44.41, 76.73) -> (75.53, -45.31, 77.51)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (75.53, -45.31, 77.51) -> (79.66, -46.30, 76.60)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (79.66, -46.30, 76.60) -> (84.85, -47.32, 74.06)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (84.85, -47.32, 74.06) -> (89.77, -48.28, 71.16)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (89.77, -48.28, 71.16) -> (94.91, -49.36, 68.01)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (94.91, -49.36, 68.01) -> (100.03, -50.60, 65.25)
+[01:45:44] [CHANGED] ROOT.AssemblyLinearVelocity : (100.03, -50.60, 65.25) -> (104.05, -51.74, 63.81)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (104.05, -51.74, 63.81) -> (107.32, -52.79, 63.22)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (107.32, -52.79, 63.22) -> (110.15, -53.72, 62.76)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (110.15, -53.72, 62.76) -> (112.97, -54.68, 62.45)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (112.97, -54.68, 62.45) -> (115.85, -55.67, 62.14)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (115.85, -55.67, 62.14) -> (119.69, -56.76, 60.14)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (119.69, -56.76, 60.14) -> (124.37, -57.87, 55.37)
+[01:45:45] [CHANGED] ROOT.AssemblyLinearVelocity : (124.37, -57.87, 55.37) -> (128.49, -58.83, 49.57)
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (128.49, -58.83, 49.57) -> (132.64, -59.85, 41.60)
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (132.64, -59.85, 41.60) -> (135.88, -60.78, 33.34)
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (135.88, -60.78, 33.34) -> (138.59, -61.71, 24.77)
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (138.59, -61.71, 24.77) -> (35.05, -54.68, -49.96)
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (35.05, -54.68, -49.96) -> (48.14, -55.85, -33.72)
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (48.14, -55.85, -33.72) -> (32.48, -85.28, -19.06)
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.LandSound = Sound
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.RightWingTrail = Trail
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.LocalScript = LocalScript
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.Mesh = SpecialMesh
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.LeftWingTrail = Trail
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider = Tool
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle = Part
+[01:45:46] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Glider.Handle.CoreAttachment.VectorForce = VectorForce
+[01:45:46] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
+[01:45:46] [CHANGED] ROOT.AssemblyLinearVelocity : (32.48, -85.28, -19.06) -> (19.16, 10.71, -5.73)
+[01:45:47] [ADDED] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.FEET.FogSlow = ParticleEmitter
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.16, 10.71, -5.73) -> (19.47, -0.41, -4.55)
+[01:45:47] [ADDED] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.FEET.Dust = ParticleEmitter
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.47, -0.41, -4.55) -> (19.73, -0.04, -3.25)
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.73, -0.04, -3.25) -> (19.74, -0.80, -3.17)
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.74, -0.80, -3.17) -> (19.74, -0.82, -3.17)
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.74, -0.82, -3.17) -> (19.66, 0.02, -3.66)
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.66, 0.02, -3.66) -> (19.29, -0.14, -5.29)
+[01:45:47] [CHANGED] ROOT.AssemblyLinearVelocity : (19.29, -0.14, -5.29) -> (19.11, 0.04, -5.88)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (19.11, 0.04, -5.88) -> (18.82, -0.87, -6.77)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (18.82, -0.87, -6.77) -> (18.75, 0.05, -6.95)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (18.75, 0.05, -6.95) -> (18.80, 0.03, -6.82)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (18.80, 0.03, -6.82) -> (18.75, 1.50, -6.79)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (18.75, 1.50, -6.79) -> (18.64, 1.53, -7.09)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (18.64, 1.53, -7.09) -> (18.63, 1.58, -7.09)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (18.63, 1.58, -7.09) -> (0.00, 0.13, -0.00)
+[01:45:48] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.13, -0.00) -> (0.00, 0.00, -0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, -0.00) -> (0.00, 0.00, -0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, -0.00) -> (0.00, 0.00, -0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, -0.00) -> (-0.00, 0.00, 0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (-0.00, 0.00, 0.00) -> (0.00, 0.00, -0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, -0.00) -> (-0.00, 0.00, 0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (-0.00, 0.00, 0.00) -> (0.00, 0.00, -0.00)
+[01:45:49] [CHANGED] ROOT.AssemblyLinearVelocity : (0.00, 0.00, -0.00) -> (14.55, 1.36, -5.66)
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (14.55, 1.36, -5.66) -> (18.32, 3.25, -7.16)
+[01:45:50] [REMOVED] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.FEET.FogSlow = ParticleEmitter
+[01:45:50] [REMOVED] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.CENTER.FEET.Dust = ParticleEmitter
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (18.32, 3.25, -7.16) -> (18.08, 1.85, -8.46)
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (18.08, 1.85, -8.46) -> (17.67, -0.35, -9.31)
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (17.67, -0.35, -9.31) -> (17.85, 0.21, -9.03)
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (17.85, 0.21, -9.03) -> (18.04, 1.73, -8.55)
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (18.04, 1.73, -8.55) -> (18.01, -0.32, -8.67)
+[01:45:50] [CHANGED] ROOT.AssemblyLinearVelocity : (18.01, -0.32, -8.67) -> (18.02, 0.18, -8.68)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (18.02, 0.18, -8.68) -> (17.96, 2.53, -8.65)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (17.96, 2.53, -8.65) -> (18.02, 0.11, -8.68)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (18.02, 0.11, -8.68) -> (18.01, -0.01, -8.67)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (18.01, -0.01, -8.67) -> (17.81, 2.32, -8.58)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (17.81, 2.32, -8.58) -> (17.62, 3.34, -8.49)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (17.62, 3.34, -8.49) -> (17.87, 2.08, -8.89)
+[01:45:51] [CHANGED] ROOT.AssemblyLinearVelocity : (17.87, 2.08, -8.89) -> (17.65, 0.10, -9.41)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.65, 0.10, -9.41) -> (17.56, 0.32, -9.56)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.56, 0.32, -9.56) -> (17.55, -1.37, -9.56)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.55, -1.37, -9.56) -> (17.55, 0.36, -9.56)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.55, 0.36, -9.56) -> (17.47, 1.77, -9.51)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.47, 1.77, -9.51) -> (17.44, 2.29, -9.50)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.44, 2.29, -9.50) -> (17.44, 2.32, -9.50)
+[01:45:52] [CHANGED] ROOT.AssemblyLinearVelocity : (17.44, 2.32, -9.50) -> (17.10, 2.76, -9.97)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (17.10, 2.76, -9.97) -> (15.99, 5.78, -10.09)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (15.99, 5.78, -10.09) -> (15.60, 6.91, -10.40)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (15.60, 6.91, -10.40) -> (15.79, 4.94, -11.10)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (15.79, 4.94, -11.10) -> (15.88, 3.03, -11.84)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (15.88, 3.03, -11.84) -> (15.45, 3.22, -12.34)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (15.45, 3.22, -12.34) -> (15.13, 1.37, -13.01)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (15.13, 1.37, -13.01) -> (14.59, 0.86, -13.66)
+[01:45:53] [CHANGED] ROOT.AssemblyLinearVelocity : (14.59, 0.86, -13.66) -> (14.23, 0.14, -14.05)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (14.23, 0.14, -14.05) -> (13.71, -0.96, -14.55)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (13.71, -0.96, -14.55) -> (14.06, -0.28, -14.21)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (14.06, -0.28, -14.21) -> (14.74, -0.46, -13.43)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (14.74, -0.46, -13.43) -> (14.38, -3.05, -13.53)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (14.38, -3.05, -13.53) -> (14.49, -2.56, -13.51)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (14.49, -2.56, -13.51) -> (14.40, -2.89, -13.70)
+[01:45:54] [CHANGED] ROOT.AssemblyLinearVelocity : (14.40, -2.89, -13.70) -> (14.56, -1.11, -13.35)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (14.56, -1.11, -13.35) -> (15.80, 1.59, -12.15)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (15.80, 1.59, -12.15) -> (15.73, 1.02, -12.30)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (15.73, 1.02, -12.30) -> (15.43, 3.18, -12.25)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (15.43, 3.18, -12.25) -> (15.22, 3.93, -12.27)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (15.22, 3.93, -12.27) -> (14.97, 5.38, -12.06)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (14.97, 5.38, -12.06) -> (14.06, 7.57, -11.51)
+[01:45:55] [CHANGED] ROOT.AssemblyLinearVelocity : (14.06, 7.57, -11.51) -> (15.05, 5.48, -12.51)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (15.05, 5.48, -12.51) -> (15.27, 1.18, -12.89)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (15.27, 1.18, -12.89) -> (15.18, 0.52, -13.01)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (15.18, 0.52, -13.01) -> (15.00, -3.02, -13.01)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (15.00, -3.02, -13.01) -> (14.54, -6.95, -12.61)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (14.54, -6.95, -12.61) -> (14.89, -2.61, -13.11)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (14.89, -2.61, -13.11) -> (14.90, 0.64, -13.25)
+[01:45:56] [CHANGED] ROOT.AssemblyLinearVelocity : (14.90, 0.64, -13.25) -> (14.41, 4.45, -12.98)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.41, 4.45, -12.98) -> (14.75, 0.88, -13.48)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.75, 0.88, -13.48) -> (14.69, 0.54, -13.56)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.69, 0.54, -13.56) -> (14.59, 0.55, -13.67)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.59, 0.55, -13.67) -> (14.52, 0.60, -13.74)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.52, 0.60, -13.74) -> (14.40, 0.52, -13.87)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.40, 0.52, -13.87) -> (14.33, 0.41, -13.95)
+[01:45:57] [CHANGED] ROOT.AssemblyLinearVelocity : (14.33, 0.41, -13.95) -> (14.33, 0.43, -13.95)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (14.33, 0.43, -13.95) -> (14.32, 0.97, -13.91)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (14.32, 0.97, -13.91) -> (15.82, 1.87, -12.09)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (15.82, 1.87, -12.09) -> (15.72, 1.14, -12.31)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (15.72, 1.14, -12.31) -> (15.32, 0.97, -12.82)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (15.32, 0.97, -12.82) -> (15.07, 0.80, -13.13)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (15.07, 0.80, -13.13) -> (14.72, 0.78, -13.51)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (14.72, 0.78, -13.51) -> (14.53, 0.95, -13.71)
+[01:45:58] [CHANGED] ROOT.AssemblyLinearVelocity : (14.53, 0.95, -13.71) -> (14.31, 2.22, -13.66)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (14.31, 2.22, -13.66) -> (14.14, 4.25, -13.49)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (14.14, 4.25, -13.49) -> (13.59, 5.39, -13.11)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (13.59, 5.39, -13.11) -> (13.45, 6.97, -13.45)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (13.45, 6.97, -13.45) -> (13.85, 3.24, -14.11)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (13.85, 3.24, -14.11) -> (13.78, 2.88, -14.21)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (13.78, 2.88, -14.21) -> (13.65, 3.09, -14.22)
+[01:45:59] [CHANGED] ROOT.AssemblyLinearVelocity : (13.65, 3.09, -14.22) -> (13.28, 5.58, -13.83)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (13.28, 5.58, -13.83) -> (12.92, 6.38, -13.46)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (12.92, 6.38, -13.46) -> (12.10, 9.29, -12.60)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (12.10, 9.29, -12.60) -> (11.86, 9.97, -12.36)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (11.86, 9.97, -12.36) -> (11.84, 9.97, -12.44)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (11.84, 9.97, -12.44) -> (13.02, 8.60, -13.68)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (13.02, 8.60, -13.68) -> (13.41, 4.22, -14.21)
+[01:46:00] [CHANGED] ROOT.AssemblyLinearVelocity : (13.41, 4.22, -14.21) -> (13.24, 4.90, -14.02)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (13.24, 4.90, -14.02) -> (13.27, 5.16, -14.05)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (13.27, 5.16, -14.05) -> (12.29, 7.97, -13.18)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (12.29, 7.97, -13.18) -> (13.29, 4.96, -14.42)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (13.29, 4.96, -14.42) -> (12.94, 5.16, -14.20)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (12.94, 5.16, -14.20) -> (12.65, 6.39, -14.08)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (12.65, 6.39, -14.08) -> (13.54, 7.47, -11.93)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (13.54, 7.47, -11.93) -> (14.91, 8.96, -10.67)
+[01:46:01] [CHANGED] ROOT.AssemblyLinearVelocity : (14.91, 8.96, -10.67) -> (16.28, 3.37, -11.27)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (16.28, 3.37, -11.27) -> (17.71, 2.67, -8.86)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (17.71, 2.67, -8.86) -> (18.31, 4.39, -6.34)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (18.31, 4.39, -6.34) -> (18.42, 4.56, -6.57)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (18.42, 4.56, -6.57) -> (17.17, 3.00, -9.84)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (17.17, 3.00, -9.84) -> (16.71, 3.77, -10.17)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (16.71, 3.77, -10.17) -> (17.15, 2.20, -10.07)
+[01:46:02] [CHANGED] ROOT.AssemblyLinearVelocity : (17.15, 2.20, -10.07) -> (16.92, 4.33, -9.59)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (16.92, 4.33, -9.59) -> (17.34, 1.39, -9.89)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (17.34, 1.39, -9.89) -> (17.39, 0.93, -9.83)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (17.39, 0.93, -9.83) -> (17.25, 0.94, -10.08)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (17.25, 0.94, -10.08) -> (16.73, 0.45, -10.96)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (16.73, 0.45, -10.96) -> (16.50, -0.19, -11.30)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (16.50, -0.19, -11.30) -> (16.34, -1.15, -11.52)
+[01:46:03] [CHANGED] ROOT.AssemblyLinearVelocity : (16.34, -1.15, -11.52) -> (16.34, 0.13, -11.53)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (16.34, 0.13, -11.53) -> (16.34, 0.23, -11.53)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (16.34, 0.23, -11.53) -> (16.34, -0.91, -11.53)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (16.34, -0.91, -11.53) -> (16.34, -0.30, -11.53)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (16.34, -0.30, -11.53) -> (16.25, -2.76, -11.47)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (16.25, -2.76, -11.47) -> (15.61, -6.79, -11.02)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (15.61, -6.79, -11.02) -> (16.10, -2.98, -11.36)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (16.10, -2.98, -11.36) -> (15.86, -2.72, -11.83)
+[01:46:04] [CHANGED] ROOT.AssemblyLinearVelocity : (15.86, -2.72, -11.83) -> (14.45, -1.86, -13.53)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (14.45, -1.86, -13.53) -> (14.12, -1.05, -14.16)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (14.12, -1.05, -14.16) -> (14.05, 0.03, -14.23)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (14.05, 0.03, -14.23) -> (13.98, 0.22, -14.30)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (13.98, 0.22, -14.30) -> (13.91, 0.25, -14.37)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (13.91, 0.25, -14.37) -> (13.68, 0.46, -14.58)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (13.68, 0.46, -14.58) -> (11.91, 0.47, -16.06)
+[01:46:05] [CHANGED] ROOT.AssemblyLinearVelocity : (11.91, 0.47, -16.06) -> (9.30, 0.40, -17.70)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (9.30, 0.40, -17.70) -> (8.39, 0.28, -18.15)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (8.39, 0.28, -18.15) -> (7.97, 0.07, -18.34)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (7.97, 0.07, -18.34) -> (7.89, 0.09, -18.38)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (7.89, 0.09, -18.38) -> (8.07, 0.10, -18.30)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (8.07, 0.10, -18.30) -> (7.61, 0.00, -18.49)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (7.61, 0.00, -18.49) -> (7.77, -0.14, -18.43)
+[01:46:06] [CHANGED] ROOT.AssemblyLinearVelocity : (7.77, -0.14, -18.43) -> (7.58, -0.23, -18.50)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (7.58, -0.23, -18.50) -> (7.30, -0.20, -18.62)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (7.30, -0.20, -18.62) -> (7.02, -0.19, -18.73)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (7.02, -0.19, -18.73) -> (6.69, -1.05, -18.84)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (6.69, -1.05, -18.84) -> (6.36, 0.06, -18.96)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (6.36, 0.06, -18.96) -> (6.27, -0.01, -18.99)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (6.27, -0.01, -18.99) -> (7.27, -0.81, -18.63)
+[01:46:07] [CHANGED] ROOT.AssemblyLinearVelocity : (7.27, -0.81, -18.63) -> (7.58, -1.09, -18.50)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (7.58, -1.09, -18.50) -> (7.09, -0.06, -18.69)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (7.09, -0.06, -18.69) -> (6.98, -1.14, -18.74)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (6.98, -1.14, -18.74) -> (6.89, -0.97, -18.76)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (6.89, -0.97, -18.76) -> (6.87, -0.35, -18.77)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (6.87, -0.35, -18.77) -> (6.74, -1.66, -18.80)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (6.74, -1.66, -18.80) -> (6.61, -0.33, -18.85)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (6.61, -0.33, -18.85) -> (6.45, -0.96, -18.91)
+[01:46:08] [CHANGED] ROOT.AssemblyLinearVelocity : (6.45, -0.96, -18.91) -> (6.31, -1.34, -18.95)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (6.31, -1.34, -18.95) -> (6.08, 0.03, -19.05)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (6.08, 0.03, -19.05) -> (5.25, -0.44, -19.27)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (5.25, -0.44, -19.27) -> (2.18, -0.25, -19.87)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (2.18, -0.25, -19.87) -> (1.69, 0.00, -19.93)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (1.69, 0.00, -19.93) -> (1.56, -0.19, -19.94)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (1.56, -0.19, -19.94) -> (2.45, 0.17, -19.85)
+[01:46:09] [CHANGED] ROOT.AssemblyLinearVelocity : (2.45, 0.17, -19.85) -> (2.43, 0.06, -19.85)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (2.43, 0.06, -19.85) -> (2.00, 0.09, -19.90)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (2.00, 0.09, -19.90) -> (1.81, -0.36, -19.89)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (1.81, -0.36, -19.89) -> (1.39, -1.37, -19.92)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (1.39, -1.37, -19.92) -> (1.18, -1.00, -19.73)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (1.18, -1.00, -19.73) -> (0.96, -0.05, -19.97)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (0.96, -0.05, -19.97) -> (0.35, -0.37, -19.96)
+[01:46:10] [CHANGED] ROOT.AssemblyLinearVelocity : (0.35, -0.37, -19.96) -> (-2.69, -1.47, -19.53)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-2.69, -1.47, -19.53) -> (-3.78, -9.02, -17.97)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-3.78, -9.02, -17.97) -> (-3.32, -3.84, -19.11)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-3.32, -3.84, -19.11) -> (-2.82, -4.54, -19.38)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-2.82, -4.54, -19.38) -> (-2.97, -1.88, -19.72)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-2.97, -1.88, -19.72) -> (-3.17, -0.33, -19.72)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-3.17, -0.33, -19.72) -> (-4.24, -0.48, -19.51)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-4.24, -0.48, -19.51) -> (-4.56, 0.29, -19.47)
+[01:46:11] [CHANGED] ROOT.AssemblyLinearVelocity : (-4.56, 0.29, -19.47) -> (-4.35, 0.18, -19.52)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-4.35, 0.18, -19.52) -> (-4.81, 0.84, -19.40)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-4.81, 0.84, -19.40) -> (-5.30, 0.67, -19.27)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-5.30, 0.67, -19.27) -> (-5.66, 0.63, -19.17)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-5.66, 0.63, -19.17) -> (-6.33, 1.29, -18.91)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-6.33, 1.29, -18.91) -> (-6.86, 1.51, -18.71)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-6.86, 1.51, -18.71) -> (-7.08, 4.14, -18.03)
+[01:46:12] [CHANGED] ROOT.AssemblyLinearVelocity : (-7.08, 4.14, -18.03) -> (-7.29, 5.54, -17.78)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-7.29, 5.54, -17.78) -> (-9.36, 9.13, -15.61)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-9.36, 9.13, -15.61) -> (-11.32, 2.75, -16.37)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.32, 2.75, -16.37) -> (-11.76, 2.12, -16.03)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.76, 2.12, -16.03) -> (-12.62, 2.04, -15.41)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.62, 2.04, -15.41) -> (-13.36, 1.75, -14.76)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.36, 1.75, -14.76) -> (-14.14, 2.44, -13.85)
+[01:46:13] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.14, 2.44, -13.85) -> (-14.30, 4.73, -13.09)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.30, 4.73, -13.09) -> (-14.19, 5.15, -12.83)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.19, 5.15, -12.83) -> (-13.31, 7.83, -12.50)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.31, 7.83, -12.50) -> (-14.79, 2.91, -13.35)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.79, 2.91, -13.35) -> (-15.31, 1.37, -12.77)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.31, 1.37, -12.77) -> (-15.66, 1.28, -12.38)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.66, 1.28, -12.38) -> (-15.73, 1.98, -12.20)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.73, 1.98, -12.20) -> (-14.78, 1.26, -13.41)
+[01:46:14] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.78, 1.26, -13.41) -> (-14.73, 1.58, -13.45)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.73, 1.58, -13.45) -> (-15.05, 0.21, -13.17)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.05, 0.21, -13.17) -> (-15.26, 0.37, -12.92)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.26, 0.37, -12.92) -> (-13.84, -1.23, -14.42)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.84, -1.23, -14.42) -> (-11.51, -0.90, -16.35)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.51, -0.90, -16.35) -> (-11.92, -2.02, -16.01)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.92, -2.02, -16.01) -> (-12.01, -0.41, -15.95)
+[01:46:15] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.01, -0.41, -15.95) -> (-12.39, -1.83, -15.60)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.39, -1.83, -15.60) -> (-12.46, -1.72, -15.52)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.46, -1.72, -15.52) -> (-12.54, -2.44, -15.47)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.54, -2.44, -15.47) -> (-12.73, -1.89, -15.20)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.73, -1.89, -15.20) -> (-12.67, -2.97, -15.07)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.67, -2.97, -15.07) -> (-12.90, 0.08, -15.28)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.90, 0.08, -15.28) -> (-12.86, 0.00, -15.32)
+[01:46:16] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.86, 0.00, -15.32) -> (-12.62, -2.64, -14.95)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.62, -2.64, -14.95) -> (-12.94, 0.61, -15.25)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.94, 0.61, -15.25) -> (-12.85, -1.78, -15.15)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.85, -1.78, -15.15) -> (-11.99, -5.25, -14.13)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.99, -5.25, -14.13) -> (-12.79, -2.22, -15.08)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.79, -2.22, -15.08) -> (-12.90, -1.73, -15.21)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.90, -1.73, -15.21) -> (-12.94, 0.18, -15.25)
+[01:46:17] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.94, 0.18, -15.25) -> (-12.94, 0.08, -15.25)
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.94, 0.08, -15.25) -> (-13.02, -0.23, -15.17)
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.02, -0.23, -15.17) -> (-13.03, -0.78, -15.18)
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.03, -0.78, -15.18) -> (-13.02, 0.44, -15.17)
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.02, 0.44, -15.17) -> (-12.99, 1.30, -15.13)
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.99, 1.30, -15.13) -> (-13.00, 1.48, -15.14)
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.00, 1.48, -15.14) -> (-12.92, 2.06, -15.06)
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Handle = Part
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Glove.Texture = Texture
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Glove = MeshPart
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.92, 2.06, -15.06) -> (-12.92, 2.67, -15.05)
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Icon = Decal
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Config = Configuration
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Glove.TouchInterest = TouchTransmitter
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous = Tool
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Config.AttackCD = NumberValue
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.LocalScript = LocalScript
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Config.AbilityCD = NumberValue
+[01:46:18] [ADDED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Handle.HandleGloveWeld = WeldConstraint
+[01:46:18] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.92, 2.67, -15.05) -> (-12.97, 2.50, -15.00)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.97, 2.50, -15.00) -> (-13.03, 2.58, -14.94)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.03, 2.58, -14.94) -> (-13.10, 1.92, -15.02)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.10, 1.92, -15.02) -> (-13.13, 0.28, -15.05)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.13, 0.28, -15.05) -> (-13.24, 1.62, -14.96)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.24, 1.62, -14.96) -> (-13.24, 0.28, -14.97)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.24, 0.28, -14.97) -> (-13.21, 2.08, -14.93)
+[01:46:19] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.21, 2.08, -14.93) -> (-13.18, 1.93, -14.90)
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.18, 1.93, -14.90) -> (-12.87, 4.50, -14.55)
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.87, 4.50, -14.55) -> (-12.96, 4.32, -14.65)
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.96, 4.32, -14.65) -> (-12.45, 5.71, -14.08)
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.45, 5.71, -14.08) -> (-10.80, 11.10, -12.21)
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-10.80, 11.10, -12.21) -> (-11.78, 10.06, -13.31)
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.78, 10.06, -13.31) -> (-11.91, 7.90, -13.46)
+[01:46:20] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Jumping
+[01:46:20] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.91, 7.90, -13.46) -> (-10.22, 53.00, -6.30)
+[01:46:21] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Jumping -> Enum.HumanoidStateType.Freefall
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-10.22, 53.00, -6.30) -> (-13.41, 35.01, -14.84)
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.41, 35.01, -14.84) -> (-13.48, 8.85, -14.78)
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.48, 8.85, -14.78) -> (-13.48, -17.31, -14.78)
+[01:46:21] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Landed
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.48, -17.31, -14.78) -> (-9.58, -0.83, -10.51)
+[01:46:21] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Landed -> Enum.HumanoidStateType.Running
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-9.58, -0.83, -10.51) -> (-13.40, -6.88, -14.69)
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.40, -6.88, -14.69) -> (-11.62, -9.11, -12.74)
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.62, -9.11, -12.74) -> (-10.01, -24.94, -10.98)
+[01:46:21] [CHANGED] ROOT.AssemblyLinearVelocity : (-10.01, -24.94, -10.98) -> (-13.47, 1.29, -14.77)
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.47, 1.29, -14.77) -> (-11.88, -9.00, -13.02)
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.88, -9.00, -13.02) -> (-11.50, 9.02, -12.61)
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.50, 9.02, -12.61) -> (-13.04, 7.85, -14.30)
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Handle = Part
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Glove.Texture = Texture
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Glove = MeshPart
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Icon = Decal
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Config = Configuration
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Glove.TouchInterest = TouchTransmitter
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous = Tool
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Config.AttackCD = NumberValue
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.LocalScript = LocalScript
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Config.AbilityCD = NumberValue
+[01:46:22] [REMOVED] OBJECT.Workspace.CosmicxisCursed.Vigorous.Handle.HandleGloveWeld = WeldConstraint
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.04, 7.85, -14.30) -> (-13.48, 0.30, -14.78)
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.48, 0.30, -14.78) -> (-13.22, 4.08, -14.38)
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.22, 4.08, -14.38) -> (-13.32, 3.79, -14.48)
+[01:46:22] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.32, 3.79, -14.48) -> (-13.19, 3.24, -14.35)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.19, 3.24, -14.35) -> (-13.00, 6.23, -14.14)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.00, 6.23, -14.14) -> (-13.28, 4.68, -14.44)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.28, 4.68, -14.44) -> (-13.62, 1.13, -14.62)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.62, 1.13, -14.62) -> (-13.70, -0.78, -14.57)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.70, -0.78, -14.57) -> (-13.65, -1.79, -14.51)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.65, -1.79, -14.51) -> (-13.77, -0.03, -14.50)
+[01:46:23] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.77, -0.03, -14.50) -> (-13.76, -0.57, -14.48)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.76, -0.57, -14.48) -> (-13.82, 1.74, -14.43)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.82, 1.74, -14.43) -> (-13.69, -2.75, -14.30)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.69, -2.75, -14.30) -> (-13.73, -2.54, -14.34)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.73, -2.54, -14.34) -> (-13.82, 0.78, -14.44)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.82, 0.78, -14.44) -> (-13.83, 0.06, -14.45)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.83, 0.06, -14.45) -> (-13.62, -3.80, -14.23)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.62, -3.80, -14.23) -> (-13.79, -1.84, -14.40)
+[01:46:24] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.79, -1.84, -14.40) -> (-13.73, -2.40, -14.35)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.73, -2.40, -14.35) -> (-13.80, -2.31, -14.25)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.80, -2.31, -14.25) -> (-13.72, -3.03, -14.16)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.72, -3.03, -14.16) -> (-13.68, -4.35, -14.12)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.68, -4.35, -14.12) -> (-13.75, -2.06, -14.19)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.75, -2.06, -14.19) -> (-13.68, -2.47, -14.12)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.68, -2.47, -14.12) -> (-13.78, -2.31, -14.23)
+[01:46:25] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.78, -2.31, -14.23) -> (-13.83, -3.44, -14.17)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.83, -3.44, -14.17) -> (-13.83, -3.09, -14.04)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.83, -3.09, -14.04) -> (-13.87, -2.71, -14.08)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.87, -2.71, -14.08) -> (-13.97, -1.87, -14.18)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.97, -1.87, -14.18) -> (-14.61, 0.56, -13.65)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.61, 0.56, -13.65) -> (-14.59, -1.58, -13.64)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.59, -1.58, -13.64) -> (-14.64, -1.71, -13.51)
+[01:46:26] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.64, -1.71, -13.51) -> (-14.69, -0.95, -13.56)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.69, -0.95, -13.56) -> (-14.66, -1.74, -13.53)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.66, -1.74, -13.53) -> (-14.78, 0.65, -13.47)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.78, 0.65, -13.47) -> (-12.73, -17.47, -11.46)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.73, -17.47, -11.46) -> (-13.59, -6.64, -12.23)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.59, -6.64, -12.23) -> (-14.21, -4.52, -12.78)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.21, -4.52, -12.78) -> (-13.96, -4.97, -12.56)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.96, -4.97, -12.56) -> (-13.92, -8.76, -12.40)
+[01:46:27] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.92, -8.76, -12.40) -> (-13.53, -9.68, -12.05)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.53, -9.68, -12.05) -> (-14.28, -9.20, -12.61)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.28, -9.20, -12.61) -> (-14.48, -5.57, -12.79)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.48, -5.57, -12.79) -> (-14.83, -4.28, -12.90)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.83, -4.28, -12.90) -> (-15.04, -2.02, -13.09)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.04, -2.02, -13.09) -> (-15.17, -0.93, -13.01)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.17, -0.93, -13.01) -> (-15.18, 0.15, -13.02)
+[01:46:28] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.18, 0.15, -13.02) -> (-15.29, 0.01, -12.88)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.29, 0.01, -12.88) -> (-15.30, -0.21, -12.88)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.30, -0.21, -12.88) -> (-15.38, -0.87, -12.79)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.38, -0.87, -12.79) -> (-16.24, 0.55, -11.65)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.24, 0.55, -11.65) -> (-17.00, -0.20, -10.53)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.00, -0.20, -10.53) -> (-16.99, -2.31, -10.33)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.99, -2.31, -10.33) -> (-16.82, -2.01, -10.46)
+[01:46:29] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.82, -2.01, -10.46) -> (-16.76, -3.19, -10.59)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.76, -3.19, -10.59) -> (-16.99, 0.08, -10.55)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.99, 0.08, -10.55) -> (-17.02, 0.00, -10.51)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.02, 0.00, -10.51) -> (-17.02, 0.00, -10.51)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.02, 0.00, -10.51) -> (-17.10, 0.00, -10.38)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.10, 0.00, -10.38) -> (-17.19, 0.00, -10.22)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.19, 0.00, -10.22) -> (-17.28, 0.00, -10.06)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.28, 0.00, -10.06) -> (-17.38, 0.00, -9.89)
+[01:46:30] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.38, 0.00, -9.89) -> (-17.45, 0.00, -9.76)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.45, 0.00, -9.76) -> (-17.54, 0.00, -9.60)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.54, 0.00, -9.60) -> (-17.65, 0.00, -9.41)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.65, 0.00, -9.41) -> (-17.75, 0.00, -9.22)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.75, 0.00, -9.22) -> (-17.83, 0.00, -9.05)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.83, 0.00, -9.05) -> (-17.77, -2.41, -8.86)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.77, -2.41, -8.86) -> (-17.94, -1.05, -8.70)
+[01:46:31] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.94, -1.05, -8.70) -> (-17.86, -2.37, -8.90)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.86, -2.37, -8.90) -> (-17.69, -2.31, -8.85)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.69, -2.31, -8.85) -> (-17.93, -0.98, -8.80)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.93, -0.98, -8.80) -> (-17.85, -0.35, -8.98)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.85, -0.35, -8.98) -> (-16.90, -1.33, -10.67)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.90, -1.33, -10.67) -> (-16.43, -0.91, -11.40)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.43, -0.91, -11.40) -> (-16.90, 0.78, -10.66)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.90, 0.78, -10.66) -> (-17.35, 1.32, -9.85)
+[01:46:32] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.35, 1.32, -9.85) -> (-17.42, 1.69, -9.68)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.42, 1.69, -9.68) -> (-17.39, 1.97, -9.66)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.39, 1.97, -9.66) -> (-17.32, 2.62, -9.62)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.32, 2.62, -9.62) -> (-17.40, 2.61, -9.54)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.40, 2.61, -9.54) -> (-17.48, 1.86, -9.59)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.48, 1.86, -9.59) -> (-17.58, 0.79, -9.52)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.58, 0.79, -9.52) -> (-17.59, 0.08, -9.52)
+[01:46:33] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.59, 0.08, -9.52) -> (-17.63, 0.10, -9.44)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.63, 0.10, -9.44) -> (-17.53, 0.02, -9.63)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.53, 0.02, -9.63) -> (-17.53, -0.94, -9.63)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.53, -0.94, -9.63) -> (-17.53, 0.15, -9.63)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.53, 0.15, -9.63) -> (-17.49, -2.91, -9.49)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.49, -2.91, -9.49) -> (-17.48, -2.83, -9.48)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.48, -2.83, -9.48) -> (-17.31, -3.36, -9.26)
+[01:46:34] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.31, -3.36, -9.26) -> (-17.23, -2.54, -9.43)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-17.23, -2.54, -9.43) -> (-16.65, -3.89, -10.53)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.65, -3.89, -10.53) -> (-16.07, -4.27, -11.32)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.07, -4.27, -11.32) -> (-15.70, -2.46, -11.88)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.70, -2.46, -11.88) -> (-15.86, -2.88, -11.72)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.86, -2.88, -11.72) -> (-16.00, -2.25, -11.82)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.00, -2.25, -11.82) -> (-16.05, -0.50, -11.85)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.05, -0.50, -11.85) -> (-14.82, -5.64, -10.95)
+[01:46:35] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.82, -5.64, -10.95) -> (-15.12, -6.79, -11.17)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.12, -6.79, -11.17) -> (-15.04, -7.83, -11.11)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.04, -7.83, -11.11) -> (-15.22, -4.29, -11.25)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.22, -4.29, -11.25) -> (-13.50, -6.65, -9.97)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.50, -6.65, -9.97) -> (-13.16, -22.67, -9.72)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.16, -22.67, -9.72) -> (-13.81, -5.99, -10.20)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.81, -5.99, -10.20) -> (-14.41, -13.24, -10.64)
+[01:46:36] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.41, -13.24, -10.64) -> (-14.51, -9.09, -10.72)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.51, -9.09, -10.72) -> (-14.57, -7.29, -10.77)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.57, -7.29, -10.77) -> (-14.25, -8.72, -10.53)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.25, -8.72, -10.53) -> (-13.77, -13.18, -10.17)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.77, -13.18, -10.17) -> (-13.00, -22.70, -9.61)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.00, -22.70, -9.61) -> (-14.35, -19.70, -10.60)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.35, -19.70, -10.60) -> (-14.92, -8.71, -10.81)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.92, -8.71, -10.81) -> (-15.09, -8.34, -10.59)
+[01:46:37] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.09, -8.34, -10.59) -> (-15.63, -6.41, -10.59)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.63, -6.41, -10.59) -> (-14.00, -18.31, -9.48)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.00, -18.31, -9.48) -> (-13.55, -5.19, -11.65)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.55, -5.19, -11.65) -> (-11.75, -13.00, -12.61)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.75, -13.00, -12.61) -> (-11.63, -10.50, -13.13)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.63, -10.50, -13.13) -> (-9.43, -9.55, -15.62)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-9.43, -9.55, -15.62) -> (-10.51, -9.92, -14.53)
+[01:46:38] [CHANGED] ROOT.AssemblyLinearVelocity : (-10.51, -9.92, -14.53) -> (-13.66, -5.15, -13.26)
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.66, -5.15, -13.26) -> (-13.32, -6.71, -13.29)
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.32, -6.71, -13.29) -> (-12.65, -5.99, -14.70)
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.65, -5.99, -14.70) -> (-12.42, -4.98, -15.04)
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.42, -4.98, -15.04) -> (-13.74, -3.63, -13.87)
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.74, -3.63, -13.87) -> (-14.77, -2.34, -13.28)
+[01:46:39] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Jumping
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.77, -2.34, -13.28) -> (-15.85, 50.55, -12.19)
+[01:46:39] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Jumping -> Enum.HumanoidStateType.Freefall
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.85, 50.55, -12.19) -> (-2.57, 16.97, 2.62)
+[01:46:39] [CHANGED] ROOT.AssemblyLinearVelocity : (-2.57, 16.97, 2.62) -> (-10.76, -8.38, -4.88)
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-10.76, -8.38, -4.88) -> (-16.90, -33.71, -10.69)
+[01:46:40] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.90, -33.71, -10.69) -> (-16.90, 5.42, -10.69)
+[01:46:40] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.90, 5.42, -10.69) -> (-16.84, 43.19, -10.78)
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.84, 43.19, -10.78) -> (-16.62, 17.85, -11.13)
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-16.62, 17.85, -11.13) -> (-15.72, -9.13, -12.37)
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.72, -9.13, -12.37) -> (-14.96, -38.56, -13.28)
+[01:46:40] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.96, -38.56, -13.28) -> (-14.96, -65.54, -13.28)
+[01:46:41] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.96, -65.54, -13.28) -> (-14.96, 2.10, -13.28)
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.96, 2.10, -13.28) -> (-15.11, -0.01, -13.11)
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-15.11, -0.01, -13.11) -> (-14.88, 1.71, -13.23)
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.88, 1.71, -13.23) -> (-14.56, 3.50, -13.20)
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.56, 3.50, -13.20) -> (-14.75, 2.27, -13.37)
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.75, 2.27, -13.37) -> (-14.68, 0.94, -13.56)
+[01:46:41] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.68, 0.94, -13.56) -> (-14.04, -1.57, -14.23)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-14.04, -1.57, -14.23) -> (-13.79, -3.27, -14.24)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.79, -3.27, -14.24) -> (-13.24, -7.36, -13.68)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.24, -7.36, -13.68) -> (-12.42, -4.12, -12.82)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.42, -4.12, -12.82) -> (-11.79, -15.06, -12.17)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-11.79, -15.06, -12.17) -> (-8.33, -25.08, -8.60)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-8.33, -25.08, -8.60) -> (-8.32, -22.39, -8.59)
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-8.32, -22.39, -8.59) -> (-2.19, -25.68, -2.26)
+[01:46:42] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
+[01:46:42] [CHANGED] ROOT.AssemblyLinearVelocity : (-2.19, -25.68, -2.26) -> (-3.43, -51.02, -3.55)
+[01:46:43] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Landed
+[01:46:43] [CHANGED] ROOT.AssemblyLinearVelocity : (-3.43, -51.02, -3.55) -> (-13.91, -6.64, -14.37)
+[01:46:43] [CHANGED] Humanoid.State : Enum.HumanoidStateType.Landed -> Enum.HumanoidStateType.Dead
+[01:46:43] [CHANGED] Humanoid.AutoRotate : true -> false
+[01:46:43] [CHANGED] Humanoid.JumpPower : 50 -> 0
+[01:46:43] [CHANGED] Humanoid.Health : 100 -> 0
+[01:46:43] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.91, -6.64, -14.37) -> (-13.91, -4.25, -14.37)
+[01:46:43] [CHANGED] CHAR.Attribute.Ragdolled : false -> true
+[01:46:43] [CHANGED] Humanoid.PlatformStand : false -> true
+[01:46:43] [CHANGED] ROOT.AssemblyLinearVelocity : (-13.91, -4.25, -14.37) -> (-12.76, 0.16, -11.94)
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.Dead = BoolValue
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.Torso.Ragdollballsocket = BallSocketConstraint
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.FakePart Left Arm = Part
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.FakePart Right Leg = Part
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.FakePart Right Arm = Part
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.FakePart Left Leg = Part
+[01:46:43] [ADDED] OBJECT.Workspace.CosmicxisCursed.HumanoidRootPart.Ragdollballsocket = BallSocketConstraint
+[01:46:43] [ADDED] CHAR.Attribute.QueuedToRespawn = true
+[01:46:43] [CHANGED] ROOT.AssemblyLinearVelocity : (-12.76, 0.16, -11.94) -> (6.82, -63.64, -10.91)
+[01:46:43] [CHANGED] ROOT.AssemblyLinearVelocity : (6.82, -63.64, -10.91) -> (-1.26, 0.68, -12.48)
+[01:46:43] [CHANGED] ROOT.AssemblyLinearVelocity : (-1.26, 0.68, -12.48) -> (0.13, -0.00, -1.76)
+[01:46:44] [CHANGED] ROOT.AssemblyLinearVelocity : (0.13, -0.00, -1.76) -> (0.00, 0.00, 0.00)
