@@ -1,19 +1,16 @@
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Workspace = game:GetService("Workspace")
 
 local player = Players.LocalPlayer
-local Items = Workspace:FindFirstChild("Items")
+local Items = workspace:FindFirstChild("Items")
+local Backpack = player:WaitForChild("Backpack")
 
-local DURATION = 5
-local startTime = os.clock()
-
-local connections = {}
 local results = {}
-local logged = {}
+local connections = {}
+local start = os.clock()
+local duration = 5
 
 local function active()
-    return os.clock() - startTime <= DURATION
+    return os.clock() - start <= duration
 end
 
 local function log(text)
@@ -21,113 +18,64 @@ local function log(text)
     table.insert(results, text)
 end
 
-local function once(key, text)
-    if logged[key] then return end
-    logged[key] = true
-    log(text)
-end
+log("===== PICKUP SCANNER =====")
+log("Raccogli UN SOLO item entro 5 secondi.")
 
-log("================================")
-log("🟢 SCANNER ATTIVO")
-log("🍎 Raccogli UN SOLO item")
-log("⏱️ 5 secondi")
-log("================================")
-
--- Remote già esistenti
-for _, obj in ipairs(ReplicatedStorage:GetDescendants()) do
-    if obj:IsA("RemoteEvent") or obj:IsA("RemoteFunction") then
-        -- Registriamo solo il nome, senza creare hook pesanti
-        table.insert(results,
-            "📡 REMOTE: " .. obj:GetFullName()
-        )
-    end
-end
-
--- Hook Remote
-local oldNamecall
-
-if hookmetamethod and getnamecallmethod and newcclosure then
-    oldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
-        if active() then
-            local method = getnamecallmethod()
-
-            if method == "FireServer" and self:IsA("RemoteEvent") then
-                once(
-                    "RE:" .. self:GetFullName(),
-                    "📡 FireServer → " .. self:GetFullName()
-                )
-
-            elseif method == "InvokeServer" and self:IsA("RemoteFunction") then
-                once(
-                    "RF:" .. self:GetFullName(),
-                    "📡 InvokeServer → " .. self:GetFullName()
-                )
-            end
-        end
-
-        return oldNamecall(self, ...)
-    end))
-end
-
--- Osserva solamente gli item
+-- Items
 if Items then
-    table.insert(connections, Items.DescendantAdded:Connect(function(obj)
-        if not active() then return end
-
-        if obj:IsA("ProximityPrompt") then
-            log("🔵 ProximityPrompt ADDED → " .. obj:GetFullName())
-
-        elseif obj:IsA("ClickDetector") then
-            log("🖱️ ClickDetector ADDED → " .. obj:GetFullName())
+    connections[#connections + 1] = Items.ChildRemoved:Connect(function(obj)
+        if active() then
+            log("ITEM REMOVED: " .. obj:GetFullName() .. " [" .. obj.ClassName .. "]")
         end
-    end))
+    end)
+
+    connections[#connections + 1] = Items.DescendantRemoving:Connect(function(obj)
+        if active() then
+            log("DESCENDANT REMOVED: " .. obj:GetFullName() .. " [" .. obj.ClassName .. "]")
+        end
+    end)
 end
 
 -- Backpack
-local backpack = player:FindFirstChildOfClass("Backpack")
+connections[#connections + 1] = Backpack.ChildAdded:Connect(function(obj)
+    if active() then
+        log("BACKPACK ADDED: " .. obj:GetFullName() .. " [" .. obj.ClassName .. "]")
+    end
+end)
 
-if backpack then
-    table.insert(connections, backpack.ChildAdded:Connect(function(obj)
-        if active() then
-            log("🎒 BACKPACK ADDED → " .. obj:GetFullName())
-        end
-    end))
-
-    table.insert(connections, backpack.ChildRemoved:Connect(function(obj)
-        if active() then
-            log("🎒 BACKPACK REMOVED → " .. obj:GetFullName())
-        end
-    end))
-end
+connections[#connections + 1] = Backpack.ChildRemoved:Connect(function(obj)
+    if active() then
+        log("BACKPACK REMOVED: " .. obj:GetFullName() .. " [" .. obj.ClassName .. "]")
+    end
+end)
 
 -- Character
-local character = player.Character
-
-if character then
-    table.insert(connections, character.ChildAdded:Connect(function(obj)
+local function connectCharacter(char)
+    connections[#connections + 1] = char.ChildAdded:Connect(function(obj)
         if active() then
-            log("👤 CHARACTER ADDED → " .. obj:GetFullName())
+            log("CHARACTER ADDED: " .. obj:GetFullName() .. " [" .. obj.ClassName .. "]")
         end
-    end))
+    end)
 
-    table.insert(connections, character.ChildRemoved:Connect(function(obj)
+    connections[#connections + 1] = char.ChildRemoved:Connect(function(obj)
         if active() then
-            log("👤 CHARACTER REMOVED → " .. obj:GetFullName())
+            log("CHARACTER REMOVED: " .. obj:GetFullName() .. " [" .. obj.ClassName .. "]")
         end
-    end))
+    end)
 end
 
-task.delay(DURATION, function()
+if player.Character then
+    connectCharacter(player.Character)
+end
 
+task.delay(duration, function()
     for _, connection in ipairs(connections) do
         pcall(function()
             connection:Disconnect()
         end)
     end
 
-    log("================================")
-    log("🔴 SCANSIONE TERMINATA")
-    log("================================")
+    log("===== SCANSIONE TERMINATA =====")
 
     local output = table.concat(results, "\n")
 
