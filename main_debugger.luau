@@ -1,6 +1,47 @@
 local Players = game:GetService("Players")
 local LogService = game:GetService("LogService")
 
+local player = Players.LocalPlayer
+local logs = {}
+
+-- Cattura i nuovi messaggi della Developer Console
+LogService.MessageOut:Connect(function(message, messageType)
+    table.insert(logs, ("[%s] %s"):format(messageType.Name, message))
+end)
+
+-- UI
+local gui = Instance.new("ScreenGui")
+gui.Name = "CopyConsoleGui"
+gui.ResetOnSpawn = false
+gui.Parent = player:WaitForChild("PlayerGui")
+
+local button = Instance.new("TextButton")
+button.Name = "CopyConsole"
+button.Size = UDim2.fromOffset(150, 40)
+button.Position = UDim2.new(0, 20, 0.5, -20)
+button.Text = "CopyConsole"
+button.TextSize = 16
+button.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+button.TextColor3 = Color3.new(1, 1, 1)
+button.BorderSizePixel = 0
+button.Parent = gui
+
+button.MouseButton1Click:Connect(function()
+    local output = table.concat(logs, "\n")
+
+    if toclipboard then
+        toclipboard(output)
+        button.Text = "Copied!"
+        task.wait(1)
+        button.Text = "CopyConsole"
+    else
+        warn("toclipboard non disponibile")
+    end
+end)
+
+local Players = game:GetService("Players")
+local LogService = game:GetService("LogService")
+
 local logs = {}
 
 -- Cattura tutto ciò che passa dal LogService
