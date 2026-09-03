@@ -77,7 +77,6 @@ end)
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 
-local player = Players.LocalPlayer
 local Items = Workspace:FindFirstChild("Items")
 
 local START = os.clock()
