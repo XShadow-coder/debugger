@@ -39,7 +39,6 @@ button.MouseButton1Click:Connect(function()
     end
 end)
 
-local Players = game:GetService("Players")
 local LogService = game:GetService("LogService")
 
 local logs = {}
