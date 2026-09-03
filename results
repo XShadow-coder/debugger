@@ -1,102 +1,1350 @@
-[01:53:57] ========== MATCH LOGGER START ==========
-[01:53:57] PlaceId = 9431156611
-[01:53:57] JobId = e6be1dbe-b6d1-4acb-acc4-ae6715d019a7
-[01:53:57] Player = CosmicxisCursed
-[01:53:57] ========================================
-[01:53:57] ========== INITIAL STATE ==========
-[01:53:57] [INITIAL] CHAR.Attribute.Ragdolled = false
-[01:53:57] [INITIAL] CHAR.Attribute.SlapsDealt = 0
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.InBus = false
-[01:53:57] [INITIAL] REPLICATED.ReplicatedStorage.Gloves.Vampire.Config.Gamepass.Value = true
-[01:53:57] [INITIAL] CHAR.Attribute.WalkSpeed = 20
-[01:53:57] [INITIAL] HUMANOID.PlatformStand = false
-[01:53:57] [INITIAL] CHAR.Attribute.Vulnerable = true
-[01:53:57] [INITIAL] HUMANOID.Health = 100
-[01:53:57] [INITIAL] REPLICATED.ReplicatedStorage.Assets.LightningStrike.Hit.Attachment.Ground.Attribute.EmitCount = 1
-[01:53:57] [INITIAL] HUMANOID.Sit = false
-[01:53:57] [INITIAL] CHAR.Attribute.inMatch = true
-[01:53:57] [INITIAL] CHAR.Attribute.InBus = false
-[01:53:57] [INITIAL] CHAR.Attribute.JumpPower = 50
-[01:53:57] [INITIAL] CHAR.Attribute.Kills = 0
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.Ragdolled = false
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.JumpPower = 50
-[01:53:57] [INITIAL] HUMANOID.State = Enum.HumanoidStateType.Running
-[01:53:57] [INITIAL] CHAR.Attribute.Power = 40
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.Vulnerable = true
-[01:53:57] [INITIAL] REPLICATED.ReplicatedStorage.Gloves.Vampire.Config.GamepassID.Value = 45176930
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.inZone = false
-[01:53:57] [INITIAL] PLAYER.Attribute.ECooldownElementEnabled = false
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.Power = 40
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.WalkSpeed = 20
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.Kills = 0
-[01:53:57] [INITIAL] CHAR.Attribute.inZone = false
-[01:53:57] [INITIAL] REPLICATED.ReplicatedStorage.Gloves.Cannoneer.Config.GamepassID.Value = 174818129
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.inMatch = true
-[01:53:57] [INITIAL] REPLICATED.ReplicatedStorage.Gloves.Cannoneer.Config.Gamepass.Value = true
-[01:53:57] [INITIAL] WORKSPACE.Workspace.ProGamer245631.Attribute.SlapsDealt = 0
-[01:53:57] ==================================
-[01:54:15] [ADDED] WORKSPACE.Attribute.MatchStarted = true
-[01:54:17] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.InBus : false -> true
-[01:54:17] [ADDED] WORKSPACE.Workspace.ProGamer245631.Attribute.AC_TeleportBypass = 117.67917329698685
-[01:54:17] [ADDED] WORKSPACE.Workspace.ProGamer245631.Attribute.AC_TeleportTarget = CFrame(-890.33, 318.50, 89.94)
-[01:54:17] [ADDED] CHAR.Attribute.AC_TeleportTarget = CFrame(-890.33, 318.50, 89.94)
-[01:54:17] [ADDED] WORKSPACE.Attribute.MatchStartingCompleted = true
-[01:54:17] [CHANGED] CHAR.Attribute.InBus : false -> true
-[01:54:17] [ADDED] CHAR.Attribute.AC_TeleportBypass = 117.68193453500862
-[01:54:18] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
-[01:54:18] [REMOVED] WORKSPACE.Workspace.ProGamer245631.Attribute.AC_TeleportBypass = 117.67917329698685
-[01:54:18] [REMOVED] WORKSPACE.Workspace.ProGamer245631.Attribute.AC_TeleportTarget = CFrame(-890.33, 318.50, 89.94)
-[01:54:18] [REMOVED] CHAR.Attribute.AC_TeleportTarget = CFrame(-890.33, 318.50, 89.94)
-[01:54:18] [REMOVED] CHAR.Attribute.AC_TeleportBypass = 117.68193453500862
-[01:54:28] [REMOVED] WORKSPACE.Workspace.ProGamer245631.Attribute.InBus = true
-[01:54:29] [REMOVED] CHAR.Attribute.InBus = true
-[01:54:29] [ADDED] CHAR.Object.Workspace.CosmicxisCursed.Glider = Tool
-[01:54:35] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Power : 40 -> 50
-[01:54:39] [REMOVED] CHAR.Object.Workspace.CosmicxisCursed.Glider = Tool
-[01:54:40] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
-[01:54:48] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.JumpPower : 50 -> 52
-[01:54:51] [ADDED] WORKSPACE.Workspace.DesireeFayee.Dead.Value = true
-[01:54:53] [ADDED] WORKSPACE.Workspace.hohohellofhere.Dead.Value = true
-[01:54:57] [REMOVED] WORKSPACE.Workspace.hohohellofhere.Dead.Value = true
-[01:55:01] [ADDED] WORKSPACE.Workspace.super_foxy287.Dead.Value = true
-[01:55:06] [ADDED] WORKSPACE.Workspace.bees399.Dead.Value = true
-[01:55:06] [REMOVED] WORKSPACE.Workspace.super_foxy287.Dead.Value = true
-[01:55:11] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Ragdolled : false -> true
-[01:55:15] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Ragdolled : true -> false
-[01:55:24] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Vulnerable : true -> false
-[01:55:24] [ADDED] WORKSPACE.Workspace.ProGamer245631.Killval.Value = lightning_eyes2334
-[01:55:24] [ADDED] WORKSPACE.Workspace.ProGamer245631.RevengeVal.Value = lightning_eyes2334
-[01:55:24] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Ragdolled : false -> true
-[01:55:24] [ADDED] WORKSPACE.Workspace.CrazyTyleriscool.Dead.Value = true
-[01:55:26] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Ragdolled : true -> false
-[01:55:26] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.Vulnerable : false -> true
-[01:55:30] [REMOVED] WORKSPACE.Workspace.ProGamer245631.RevengeVal.Value = lightning_eyes2334
-[01:55:33] [ADDED] WORKSPACE.Workspace.bubblegimsavage.Dead.Value = true
-[01:55:40] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.SlapsDealt : 0 -> 1
-[01:55:42] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.SlapsDealt : 1 -> 2
-[01:55:43] [ADDED] WORKSPACE.Workspace.JackCMD.Dead.Value = true
-[01:55:44] [REMOVED] WORKSPACE.Workspace.ProGamer245631.Killval.Value = lightning_eyes2334
-[01:55:45] [CHANGED] WORKSPACE.Workspace.ProGamer245631.Attribute.SlapsDealt : 2 -> 3
-[01:55:45] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Jumping
-[01:55:46] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Jumping -> Enum.HumanoidStateType.Freefall
-[01:55:46] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
-[01:55:46] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
-[01:55:47] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
-[01:55:59] [ADDED] WORKSPACE.Workspace.speedwrath10.Dead.Value = true
-[01:56:01] [REMOVED] WORKSPACE.Workspace.speedwrath10.Dead.Value = true
-[01:56:01] [REMOVED] WORKSPACE.Workspace.bubblegimsavage.Dead.Value = true
-[01:56:19] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
-[01:56:20] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
-[01:56:37] [ADDED] WORKSPACE.Workspace.Piip384.Dead.Value = true
-[01:56:38] [ADDED] WORKSPACE.Workspace.FuturistichubBro.Dead.Value = true
-[01:56:40] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Freefall
-[01:56:40] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Freefall -> Enum.HumanoidStateType.Running
-[01:56:40] [CHANGED] CHAR.Attribute.Ragdolled : false -> true
-[01:56:40] [CHANGED] HUMANOID.PlatformStand : false -> true
-[01:56:40] [CHANGED] HUMANOID.Health : 100 -> 0
-[01:56:40] [CHANGED] HUMANOID.State : Enum.HumanoidStateType.Running -> Enum.HumanoidStateType.Dead
-[01:56:41] [ADDED] CHAR.Attribute.QueuedToRespawn = true
-[01:56:41] [ADDED] CHAR.Object.Workspace.CosmicxisCursed.Dead = BoolValue
-[01:56:41] [ADDED] WORKSPACE.Workspace.CosmicxisCursed.Dead.Value = true
-[01:56:43] [REMOVED] WORKSPACE.Workspace.FuturistichubBro.Dead.Value = true
-[01:56:43] [REMOVED] WORKSPACE.Workspace.Piip384.Dead.Value = true
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.First Aid Kit
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle | Part
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Speed Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Gravity | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Bottom | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Holder | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Boba
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Boba.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.SpecialMesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Boba
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Boba.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.SpecialMesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.True Power
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.True Power.Mesh | MeshPart
+[MessageOutput]   └─ Workspace.Items.True Power.Mesh.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.True Power.Handle | Part
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment1 | Attachment
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment1.ParticleEmitter | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment2 | Attachment
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment2.ParticleEmitter | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Gravity | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Shining flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.True Power.Handle.Attachment.Arc | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.First Aid Kit
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle | Part
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.First Aid Kit
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle | Part
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Boba
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Boba.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.SpecialMesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Boba
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Boba.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.SpecialMesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Boba.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Gravitation Shard
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle | UnionOperation
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.PointLight | PointLight
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Unique Stylized Lens 4x4 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Noisy Fading Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.LE Multiple Spec 8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Unique Stylized Lens 4x4 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Gravitation Shard.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bandage
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bandage.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Speed Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Handle.Attachment.Gravity | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Bottom | Part
+[MessageOutput]   └─ Workspace.Items.Speed Potion.Holder | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Lightning Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Highlight | Highlight
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Chromatic Lightning Spark 2 4x4 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.AOE Lightning Grey | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Lightning Potion.Handle.Attachment.Gravity | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bomb
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Explosion2 | Sound
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bomb.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Cube of Ice
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Cube of Ice
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Sphere of fury
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment.ParticleEmitter | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Sphere of fury.Holder | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Tomahawk
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Swing | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Hit | Sound
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip | MeshPart
+[MessageOutput]   └─ Workspace.Items.Tomahawk.Tip.WeldConstraint | WeldConstraint
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.First Aid Kit
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle | Part
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.First Aid Kit.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Potion of Strength
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Cube of Ice
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Texture | Texture
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Cube of Ice.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Frog Potion
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput]   └─ Workspace.Items.Frog Potion.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Bull's essence
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Bull's essence.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Apple
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Apple.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Mesh | SpecialMesh
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Apple.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] 📦 ITEM: Workspace.Items.Potion of Strength
+[MessageOutput] 📌 CLASS: Tool
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.WeldConstraint | WeldConstraint
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui | BillboardGui
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.Keybind | Frame
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.Keybind.ImageLabel | ImageLabel
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemName | Frame
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemName.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemDescription | Frame
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.ItemGui.ItemDescription.TextLabel | TextLabel
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment | Attachment
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Blinking Spec | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Chromatic Shining Lens Flare 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Thick Needles Lens 8x8 | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Expanding invis flare | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Handle.Attachment.Glow | ParticleEmitter
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput]   └─ Workspace.Items.Potion of Strength.Part | Part
+[MessageOutput] ━━━━━━━━━━━━━━━━━━━━
+[MessageOutput] ✅ Scanner attivo
