@@ -1,10 +1,18 @@
 local Players = game:GetService("Players")
-local player = Players.LocalPlayer
+local LogService = game:GetService("LogService")
 
+local logs = {}
+
+-- Cattura tutto ciò che passa dal LogService
+LogService.MessageOut:Connect(function(message, messageType)
+    table.insert(logs, string.format("[%s] %s", messageType.Name, message))
+end)
+
+-- GUI
 local gui = Instance.new("ScreenGui")
 gui.Name = "CopyConsoleGui"
 gui.ResetOnSpawn = false
-gui.Parent = player:WaitForChild("PlayerGui")
+gui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
 
 local button = Instance.new("TextButton")
 button.Name = "CopyConsole"
@@ -14,10 +22,15 @@ button.Text = "CopyConsole"
 button.Parent = gui
 
 button.MouseButton1Click:Connect(function()
-    local text = "Console contents cannot be directly read by Roblox Luau."
-    
+    local text = table.concat(logs, "\n")
+
     if setclipboard then
         setclipboard(text)
+        button.Text = "Copied!"
+        task.wait(1)
+        button.Text = "CopyConsole"
+    else
+        warn("setclipboard non è disponibile.")
     end
 end)
 
