@@ -1,33 +1,24 @@
 local Items = workspace:WaitForChild("Items")
 
-local function scanTool(tool)
+local function scan(item)
     print("━━━━━━━━━━━━━━━━━━━━")
-    print("🛠️ TOOL:", tool:GetFullName())
+    print("📦 ITEM:", item:GetFullName())
+    print("📌 CLASS:", item.ClassName)
 
-    for _, v in ipairs(tool:GetDescendants()) do
-        print(
-            "  ├─",
-            v:GetFullName(),
-            "| Class:",
-            v.ClassName
-        )
+    for _, obj in ipairs(item:GetDescendants()) do
+        print("  └─", obj:GetFullName(), "|", obj.ClassName)
     end
 
     print("━━━━━━━━━━━━━━━━━━━━")
 end
 
 for _, item in ipairs(Items:GetChildren()) do
-    if item:IsA("Tool") then
-        scanTool(item)
-    end
+    scan(item)
 end
 
 Items.ChildAdded:Connect(function(item)
     task.wait(0.1)
-
-    if item:IsA("Tool") then
-        scanTool(item)
-    end
+    scan(item)
 end)
 
-print("✅ Tool scanner attivo")
+print("✅ Scanner attivo")
