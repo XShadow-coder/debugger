@@ -1,95 +1,27 @@
 local Players = game:GetService("Players")
-local LogService = game:GetService("LogService")
-
-local player = Players.LocalPlayer
-local logs = {}
-
--- Cattura i nuovi messaggi della Developer Console
-LogService.MessageOut:Connect(function(message, messageType)
-    table.insert(logs, ("[%s] %s"):format(messageType.Name, message))
-end)
-
--- UI
-local gui = Instance.new("ScreenGui")
-gui.Name = "CopyConsoleGui"
-gui.ResetOnSpawn = false
-gui.Parent = player:WaitForChild("PlayerGui")
-
-local button = Instance.new("TextButton")
-button.Name = "CopyConsole"
-button.Size = UDim2.fromOffset(150, 40)
-button.Position = UDim2.new(0, 20, 0.5, -20)
-button.Text = "CopyConsole"
-button.TextSize = 16
-button.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-button.TextColor3 = Color3.new(1, 1, 1)
-button.BorderSizePixel = 0
-button.Parent = gui
-
-button.MouseButton1Click:Connect(function()
-    local output = table.concat(logs, "\n")
-
-    if toclipboard then
-        toclipboard(output)
-        button.Text = "Copied!"
-        task.wait(1)
-        button.Text = "CopyConsole"
-    else
-        warn("toclipboard non disponibile")
-    end
-end)
-
-local LogService = game:GetService("LogService")
-
-local logs = {}
-
--- Cattura tutto ciò che passa dal LogService
-LogService.MessageOut:Connect(function(message, messageType)
-    table.insert(logs, string.format("[%s] %s", messageType.Name, message))
-end)
-
--- GUI
-local gui = Instance.new("ScreenGui")
-gui.Name = "CopyConsoleGui"
-gui.ResetOnSpawn = false
-gui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
-
-local button = Instance.new("TextButton")
-button.Name = "CopyConsole"
-button.Size = UDim2.fromOffset(140, 40)
-button.Position = UDim2.new(0, 20, 0.5, 0)
-button.Text = "CopyConsole"
-button.Parent = gui
-
-button.MouseButton1Click:Connect(function()
-    local text = table.concat(logs, "\n")
-
-    if setclipboard then
-        setclipboard(text)
-        button.Text = "Copied!"
-        task.wait(1)
-        button.Text = "CopyConsole"
-    else
-        warn("setclipboard non è disponibile.")
-    end
-end)
-
-local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 
-local Items = Workspace:FindFirstChild("Items")
-
-local START = os.clock()
+local player = Players.LocalPlayer
 local DURATION = 5
+
+local startTime = os.clock()
 local connections = {}
 local logged = {}
+local results = {}
 
 local function active()
-    return os.clock() - START <= DURATION
+    return os.clock() - startTime <= DURATION
 end
 
 local function log(...)
-    print("[PICKUP SCANNER]", ...)
+    local args = {...}
+    local text = table.concat(
+        table.pack(table.unpack(args)),
+        " "
+    )
+
+    print("[PICKUP SCANNER]", text)
+    table.insert(results, text)
 end
 
 local function once(key, ...)
@@ -100,7 +32,7 @@ end
 
 log("================================")
 log("🟢 PICKUP SCANNER ATTIVO")
-log("🍎 Ora raccogli UN SOLO item")
+log("🍎 Raccogli UN SOLO item")
 log("⏱️ Durata: 5 secondi")
 log("================================")
 
@@ -119,6 +51,7 @@ if hookmetamethod and getnamecallmethod and newcclosure then
                     self:GetFullName(),
                     "| FireServer"
                 )
+
             elseif method == "InvokeServer" and self:IsA("RemoteFunction") then
                 once(
                     "RF:" .. self:GetFullName(),
@@ -133,47 +66,63 @@ if hookmetamethod and getnamecallmethod and newcclosure then
     end))
 end
 
--- ProximityPrompt
+-- Interazioni
 local function watch(obj)
     if obj:IsA("ProximityPrompt") then
+
         table.insert(connections, obj.Triggered:Connect(function(plr)
             if active() then
-                log("🔵 ProximityPrompt TRIGGERED:", obj:GetFullName())
-                log("   Player:", plr and plr.Name or "nil")
+                log(
+                    "🔵 ProximityPrompt TRIGGERED:",
+                    obj:GetFullName(),
+                    "| Player:",
+                    plr and plr.Name or "nil"
+                )
             end
         end))
 
     elseif obj:IsA("ClickDetector") then
+
         table.insert(connections, obj.MouseClick:Connect(function(plr)
             if active() then
-                log("🖱️ ClickDetector CLICKED:", obj:GetFullName())
-                log("   Player:", plr and plr.Name or "nil")
+                log(
+                    "🖱️ ClickDetector CLICKED:",
+                    obj:GetFullName(),
+                    "| Player:",
+                    plr and plr.Name or "nil"
+                )
             end
         end))
 
     elseif obj:IsA("Tool") then
+
         table.insert(connections, obj.Activated:Connect(function()
             if active() then
-                log("🛠️ Tool ACTIVATED:", obj:GetFullName())
+                log(
+                    "🛠️ Tool ACTIVATED:",
+                    obj:GetFullName()
+                )
             end
         end))
     end
 end
 
--- Scansiona tutto il gioco per i metodi di interazione
+-- Scansione iniziale
 for _, obj in ipairs(game:GetDescendants()) do
     if not active() then break end
     watch(obj)
 end
 
--- Rileva eventuali oggetti creati durante il test
+-- Nuovi oggetti
 table.insert(connections, game.DescendantAdded:Connect(function(obj)
     if active() then
         watch(obj)
     end
 end))
 
+-- Fine scansione
 task.delay(DURATION, function()
+
     for _, connection in ipairs(connections) do
         pcall(function()
             connection:Disconnect()
@@ -183,6 +132,16 @@ task.delay(DURATION, function()
     log("================================")
     log("🔴 SCANSIONE TERMINATA")
     log("================================")
-end)    log("🔴 SCANSIONE TERMINATA")
-    log("================================")
+
+    local output = table.concat(results, "\n")
+
+    if toclipboard then
+        toclipboard(output)
+        print("📋 RISULTATI COPIATI NEGLI APPUNTI")
+    elseif setclipboard then
+        setclipboard(output)
+        print("📋 RISULTATI COPIATI NEGLI APPUNTI")
+    else
+        warn("❌ toclipboard/setclipboard non disponibile")
+    end
 end)
