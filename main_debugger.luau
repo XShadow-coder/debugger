@@ -22,10 +22,12 @@ button.Parent = gui
 local enabled = false
 local working = false
 
-local sawFreefall = false
+local waitingForFreefall = false
+local waitingForRunning = false
+
 local cycleId = 0
 
---// Funzioni
+--// GUI functions
 local function setWaiting()
     button.Text = "Waiting"
     button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
@@ -42,7 +44,8 @@ local function setOff()
 end
 
 local function resetCycle()
-    sawFreefall = false
+    waitingForFreefall = false
+    waitingForRunning = false
 end
 
 --// ON / OFF
@@ -51,23 +54,23 @@ button.MouseButton1Click:Connect(function()
     cycleId += 1
 
     if enabled then
-        print("[AutoTP TEST] ON")
-
         working = false
         resetCycle()
         setWaiting()
-    else
-        print("[AutoTP TEST] OFF")
 
+        print("[AutoTP TEST] ON")
+    else
         working = false
         resetCycle()
         setOff()
+
+        print("[AutoTP TEST] OFF")
     end
 end)
 
 setWaiting()
 
---// Monitor
+--// MAIN LOOP
 task.spawn(function()
     while gui.Parent do
         task.wait(0.1)
@@ -77,14 +80,12 @@ task.spawn(function()
         end
 
         local char = player.Character
-
         if not char then
             resetCycle()
             continue
         end
 
         local humanoid = char:FindFirstChildOfClass("Humanoid")
-
         if not humanoid then
             continue
         end
@@ -92,69 +93,73 @@ task.spawn(function()
         local inBus = char:GetAttribute("InBus")
         local state = humanoid:GetState()
 
-        --==================================================
-        -- INBUS = TRUE
-        -- NON FARE ASSOLUTAMENTE NULLA
-        --==================================================
+        --========================================
+        -- 1. INBUS = NIL
+        --========================================
 
-        if inBus == true then
-            resetCycle()
-            continue
+        if inBus == nil then
+            if not waitingForFreefall and not waitingForRunning then
+                waitingForFreefall = true
+
+                print("[AutoTP TEST] InBus = nil")
+                print("[AutoTP TEST] Attendo Freefall...")
+            end
         end
 
-        --==================================================
-        -- INBUS = NIL
-        -- ASPETTA FREEFALL
-        --==================================================
+        --========================================
+        -- 2. ATTENDI FREEFALL
+        --========================================
 
-        if inBus == nil
-            and state == Enum.HumanoidStateType.Freefall
-            and not sawFreefall then
+        if waitingForFreefall
+            and state == Enum.HumanoidStateType.Freefall then
 
-            sawFreefall = true
+            waitingForFreefall = false
+            waitingForRunning = true
 
             print("[AutoTP TEST] Freefall rilevato")
+            print("[AutoTP TEST] Attendo Running + InBus = nil...")
         end
 
-        --==================================================
-        -- FREEFALL
-        -- ↓
-        -- RUNNING + INBUS NIL
-        --==================================================
+        --========================================
+        -- 3. RUNNING + INBUS = NIL
+        --========================================
 
-        if sawFreefall
-            and inBus == nil
-            and state == Enum.HumanoidStateType.Running then
+        if waitingForRunning
+            and state == Enum.HumanoidStateType.Running
+            and inBus == nil then
 
-            print("[AutoTP TEST] Running + InBus=nil rilevato")
-
+            waitingForRunning = false
             working = true
-            sawFreefall = false
 
             local thisCycle = cycleId
 
-            -- Attendi 5 secondi
+            print("[AutoTP TEST] Running + InBus = nil")
+            print("[AutoTP TEST] Loop completato")
+            print("[AutoTP TEST] Aspetto 5 secondi...")
+
+            -- Attesa di 5 secondi
             task.delay(5, function()
+
                 if not enabled or thisCycle ~= cycleId then
-                    working = false
                     return
                 end
 
-                print("[AutoTP TEST] Worked")
-
                 setWorked()
 
-                -- Rimane Worked per 5 secondi
+                print("[AutoTP TEST] WORKED")
+
+                -- Worked per 5 secondi
                 task.delay(5, function()
+
                     if not enabled or thisCycle ~= cycleId then
                         return
                     end
 
-                    print("[AutoTP TEST] Waiting")
-
                     working = false
                     resetCycle()
                     setWaiting()
+
+                    print("[AutoTP TEST] WAITING")
                 end)
             end)
         end
