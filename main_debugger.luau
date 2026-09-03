@@ -35,121 +35,115 @@ button.MouseButton1Click:Connect(function()
 end)
 
 local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+
 local player = Players.LocalPlayer
+local Items = Workspace:FindFirstChild("Items")
 
-local Items = workspace:FindFirstChild("Items")
-local Character = player.Character or player.CharacterAdded:Wait()
-
-local running = true
+local START = os.clock()
+local DURATION = 5
 local connections = {}
+local logged = {}
+
+local function active()
+    return os.clock() - START <= DURATION
+end
 
 local function log(...)
     print("[PICKUP SCANNER]", ...)
 end
 
-local function describe(obj)
-    return obj:GetFullName() .. " [" .. obj.ClassName .. "]"
+local function once(key, ...)
+    if logged[key] then return end
+    logged[key] = true
+    log(...)
 end
-
-local function watchContainer(container)
-    if not container then return end
-
-    table.insert(connections, container.ChildAdded:Connect(function(obj)
-        if running then
-            log("➕ ADDED:", describe(obj))
-        end
-    end))
-
-    table.insert(connections, container.ChildRemoved:Connect(function(obj)
-        if running then
-            log("➖ REMOVED:", describe(obj))
-        end
-    end))
-end
-
--- Container principali
-watchContainer(Items)
-watchContainer(Character)
-watchContainer(player.Backpack)
-
--- Attributi del Character
-for _, attribute in ipairs(Character:GetAttributes()) do
-    -- niente: serve solo a inizializzare il controllo
-end
-
-local lastAttributes = {}
-
-for name, value in pairs(Character:GetAttributes()) do
-    lastAttributes[name] = value
-end
-
-table.insert(connections, Character.AttributeChanged:Connect(function(name)
-    if not running then return end
-
-    local newValue = Character:GetAttribute(name)
-    local oldValue = lastAttributes[name]
-
-    if oldValue ~= newValue then
-        log(
-            "🔄 ATTRIBUTE:",
-            name,
-            "|",
-            tostring(oldValue),
-            "→",
-            tostring(newValue)
-        )
-
-        lastAttributes[name] = newValue
-    end
-end))
-
--- ChildAdded/Removed ricorsivi per gli oggetti principali
-local function watchDescendants(container)
-    if not container then return end
-
-    table.insert(connections, container.DescendantAdded:Connect(function(obj)
-        if running then
-            log("🔹 DESCENDANT ADDED:", describe(obj))
-        end
-    end))
-
-    table.insert(connections, container.DescendantRemoving:Connect(function(obj)
-        if running then
-            log("🔸 DESCENDANT REMOVED:", describe(obj))
-        end
-    end))
-end
-
-watchDescendants(Items)
-watchDescendants(Character)
-watchDescendants(player.Backpack)
-
--- Backpack può cambiare durante il test
-player.Backpack.ChildAdded:Connect(function(obj)
-    if running then
-        log("🎒 BACKPACK ADDED:", describe(obj))
-    end
-end)
-
-player.Backpack.ChildRemoved:Connect(function(obj)
-    if running then
-        log("🎒 BACKPACK REMOVED:", describe(obj))
-    end
-end)
 
 log("================================")
 log("🟢 PICKUP SCANNER ATTIVO")
-log("⏱️ Hai 5 secondi per raccogliere UN item")
+log("🍎 Ora raccogli UN SOLO item")
+log("⏱️ Durata: 5 secondi")
 log("================================")
 
-task.delay(5, function()
-    running = false
+-- RemoteEvent / RemoteFunction
+local oldNamecall
 
+if hookmetamethod and getnamecallmethod and newcclosure then
+    oldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
+        if active() then
+            local method = getnamecallmethod()
+
+            if method == "FireServer" and self:IsA("RemoteEvent") then
+                once(
+                    "RE:" .. self:GetFullName(),
+                    "📡 RemoteEvent:",
+                    self:GetFullName(),
+                    "| FireServer"
+                )
+            elseif method == "InvokeServer" and self:IsA("RemoteFunction") then
+                once(
+                    "RF:" .. self:GetFullName(),
+                    "📡 RemoteFunction:",
+                    self:GetFullName(),
+                    "| InvokeServer"
+                )
+            end
+        end
+
+        return oldNamecall(self, ...)
+    end))
+end
+
+-- ProximityPrompt
+local function watch(obj)
+    if obj:IsA("ProximityPrompt") then
+        table.insert(connections, obj.Triggered:Connect(function(plr)
+            if active() then
+                log("🔵 ProximityPrompt TRIGGERED:", obj:GetFullName())
+                log("   Player:", plr and plr.Name or "nil")
+            end
+        end))
+
+    elseif obj:IsA("ClickDetector") then
+        table.insert(connections, obj.MouseClick:Connect(function(plr)
+            if active() then
+                log("🖱️ ClickDetector CLICKED:", obj:GetFullName())
+                log("   Player:", plr and plr.Name or "nil")
+            end
+        end))
+
+    elseif obj:IsA("Tool") then
+        table.insert(connections, obj.Activated:Connect(function()
+            if active() then
+                log("🛠️ Tool ACTIVATED:", obj:GetFullName())
+            end
+        end))
+    end
+end
+
+-- Scansiona tutto il gioco per i metodi di interazione
+for _, obj in ipairs(game:GetDescendants()) do
+    if not active() then break end
+    watch(obj)
+end
+
+-- Rileva eventuali oggetti creati durante il test
+table.insert(connections, game.DescendantAdded:Connect(function(obj)
+    if active() then
+        watch(obj)
+    end
+end))
+
+task.delay(DURATION, function()
     for _, connection in ipairs(connections) do
-        connection:Disconnect()
+        pcall(function()
+            connection:Disconnect()
+        end)
     end
 
     log("================================")
     log("🔴 SCANSIONE TERMINATA")
+    log("================================")
+end)    log("🔴 SCANSIONE TERMINATA")
     log("================================")
 end)
