@@ -1,104 +1,96 @@
-[278.289] ========== SCAN STARTED ==========
-[278.292] ========== INITIAL SNAPSHOT ==========
-[278.292] [INITIAL] Character.Child.HumanoidRootPart = Part
-[278.292] [INITIAL] Items.Exists = true
-[278.292] [INITIAL] ITEM.Workspace.Items.Potion of Strength.Handle = Part | Pos=(-546.68, 14.70, -371.03)
-[278.292] [INITIAL] ITEMMODEL.Workspace.Items.Bandage = Tool
-[278.293] [INITIAL] Character.Child.Left Arm = Part
-[278.293] [INITIAL] ITEM.Workspace.Items.Healing Potion.Part = Part | Pos=(-389.24, 9.66, 291.97)
-[278.293] [INITIAL] Character.Child.Animate = LocalScript
-[278.293] [INITIAL] Humanoid.State = Enum.HumanoidStateType.Running
-[278.293] [INITIAL] ITEM.Workspace.Items.Bomb.Handle = Part | Pos=(-185.98, 130.13, 314.49)
-[278.293] [INITIAL] ITEM.Workspace.Items.Forcefield Crystal.Handle = UnionOperation | Pos=(-605.00, 18.34, -222.38)
-[278.293] [INITIAL] ITEMMODEL.Workspace.Items.Boba = Tool
-[278.293] [INITIAL] ITEM.Workspace.Items.Frog Potion.Part = Part | Pos=(-52.15, 17.01, -341.85)
-[278.293] [INITIAL] ITEM.Workspace.Items.Speed Potion.Handle = Part | Pos=(269.31, 7.00, 418.20)
-[278.293] [INITIAL] ITEMMODEL.Workspace.Items.Speed Potion = Tool
-[278.293] [INITIAL] Character.Child.Body Colors = BodyColors
-[278.293] [INITIAL] ITEMMODEL.Workspace.Items.Apple = Tool
-[278.293] [INITIAL] Character.Attribute.inMatch = true
-[278.293] [INITIAL] ITEM.Workspace.Items.Speed Potion.Part = Part | Pos=(269.27, 7.00, 418.20)
-[278.293] [INITIAL] ITEM.Workspace.Items.First Aid Kit.Handle = Part | Pos=(-270.62, 186.67, 349.25)
-[278.293] [INITIAL] ITEMMODEL.Workspace.Items.Bull's essence = Tool
-[278.293] [INITIAL] Character.Child.MainChar = LocalScript
-[278.293] [INITIAL] Character.Attribute.Vulnerable = true
-[278.293] [INITIAL] Character.Attribute.inZone = false
-[278.294] [INITIAL] ITEM.Workspace.Items.Bandage.Handle = MeshPart | Pos=(-669.15, 40.19, 441.23)
-[278.294] [INITIAL] Character.Attribute.JumpPower = 50
-[278.294] [INITIAL] ITEM.Workspace.Items.Speed Potion.Holder = Part | Pos=(269.31, 7.00, 418.20)
-[278.294] [INITIAL] ITEMMODEL.Workspace.Items.Bomb = Tool
-[278.294] [INITIAL] Humanoid.PlatformStand = false
-[278.294] [INITIAL] Character.Child.WaterPhasingFix = LocalScript
-[278.294] [INITIAL] ITEM.Workspace.Items.Bull's essence.Handle = Part | Pos=(-450.60, -49.96, -277.74)
-[278.294] [INITIAL] Character.Attribute.Power = 40
-[278.294] [INITIAL] ITEMMODEL.Workspace.Items.Healing Potion = Tool
-[278.294] [INITIAL] ITEM.Workspace.Items.Apple.Handle = Part | Pos=(238.89, 4.93, 342.21)
-[278.294] [INITIAL] Character.Child.Shirt = Shirt
-[278.294] [INITIAL] ITEM.Workspace.Items.Sphere of fury.Holder = Part | Pos=(-448.60, 14.92, -388.30)
-[278.294] [INITIAL] ITEM.Workspace.Items.Sphere of fury.Handle = Part | Pos=(-448.60, 14.95, -388.30)
-[278.294] [INITIAL] ITEMMODEL.Workspace.Items.Frog Potion = Tool
-[278.294] [INITIAL] ITEMMODEL.Workspace.Items.Sphere of fury = Tool
-[278.294] [INITIAL] Character.Child.Right Arm = Part
-[278.294] [INITIAL] ITEM.Workspace.Items.Potion of Strength.Part = Part | Pos=(-546.67, 14.69, -370.80)
-[278.294] [INITIAL] Character.Attribute.WalkSpeed = 20
-[278.294] [INITIAL] Character.Child.Torso = Part
-[278.295] [INITIAL] Character.Child.HealthScript = Script
-[278.295] [INITIAL] ITEMMODEL.Workspace.Items.Cube of Ice = Tool
-[278.295] [INITIAL] ITEM.Workspace.Items.Speed Potion.Bottom = Part | Pos=(268.66, 7.00, 418.20)
-[278.295] [INITIAL] Character.Parent = Workspace
-[278.295] [INITIAL] ITEMMODEL.Workspace.Items.Forcefield Crystal = Tool
-[278.295] [INITIAL] ITEMMODEL.Workspace.Items.Potion of Strength = Tool
-[278.295] [INITIAL] ITEM.Workspace.Items.Boba.Handle = Part | Pos=(-194.16, 19.00, 67.41)
-[278.295] [INITIAL] Character.Attribute.SlapsDealt = 0
-[278.295] [INITIAL] Character.Child.Left Leg = Part
-[278.295] [INITIAL] ITEM.Workspace.Items.Frog Potion.Handle = Part | Pos=(-52.16, 17.02, -342.07)
-[278.295] [INITIAL] Character.Child.Head = Part
-[278.295] [INITIAL] Humanoid.Health = 100
-[278.295] [INITIAL] ITEMMODEL.Workspace.Items.First Aid Kit = Tool
-[278.295] [INITIAL] Character.Child.ItemClient = LocalScript
-[278.295] [INITIAL] Humanoid.Sit = false
-[278.295] [INITIAL] Character.Attribute.Ragdolled = false
-[278.295] [INITIAL] ITEM.Workspace.Items.Cube of Ice.Handle = Part | Pos=(512.00, 27.10, 343.62)
-[278.296] [INITIAL] ITEM.Workspace.Items.Healing Potion.Handle = Part | Pos=(-389.25, 9.67, 291.75)
-[278.296] [INITIAL] Character.Child.Pants = Pants
-[278.296] [INITIAL] Character.Child.Right Leg = Part
-[278.296] [INITIAL] Character.Attribute.Kills = 0
-[278.296] [INITIAL] Character.Child.Humanoid = Humanoid
-[278.296] ======================================
-[278.405] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.96, -277.74) -> Part | Pos=(-450.60, -49.98, -277.74)
-[278.406] [CHANGED] ITEM.Workspace.Items.Apple.Handle : Part | Pos=(238.89, 4.93, 342.21) -> Part | Pos=(237.86, 9.11, 343.66)
-[278.519] [CHANGED] ITEM.Workspace.Items.Apple.Handle : Part | Pos=(237.86, 9.11, 343.66) -> Part | Pos=(236.92, 9.71, 342.56)
-[278.630] [CHANGED] ITEM.Workspace.Items.Apple.Handle : Part | Pos=(236.92, 9.71, 342.56) -> Part | Pos=(-294.25, 19.00, 21.12)
-[278.735] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.98, -277.74) -> Part | Pos=(-450.60, -49.97, -277.74)
-[278.843] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.97, -277.74) -> Part | Pos=(-450.60, -49.94, -277.74)
-[278.965] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.94, -277.74) -> Part | Pos=(-450.60, -49.91, -277.74)
-[279.086] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.91, -277.74) -> Part | Pos=(-450.60, -49.86, -277.74)
-[279.205] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.86, -277.74) -> Part | Pos=(-450.60, -49.81, -277.74)
-[279.321] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.81, -277.74) -> Part | Pos=(-450.60, -49.75, -277.74)
-[279.434] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.75, -277.74) -> Part | Pos=(-450.60, -49.67, -277.74)
-[279.555] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.67, -277.74) -> Part | Pos=(-450.60, -49.60, -277.74)
-[279.661] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.60, -277.74) -> Part | Pos=(-450.60, -49.52, -277.74)
-[279.769] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.52, -277.74) -> Part | Pos=(-450.60, -49.44, -277.74)
-[279.886] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.60, -49.44, -277.74) -> Part | Pos=(-450.16, -46.10, -278.93)
-[280.002] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-450.16, -46.10, -278.93) -> Part | Pos=(-449.86, -44.31, -279.75)
-[280.122] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-449.86, -44.31, -279.75) -> Part | Pos=(-449.79, -45.65, -279.56)
-[280.236] [CHANGED] ITEM.Workspace.Items.Bull's essence.Handle : Part | Pos=(-449.79, -45.65, -279.56) -> Part | Pos=(307.56, 52.72, -525.47)
-[280.236] [CHANGED] ITEM.Workspace.Items.Sphere of fury.Holder : Part | Pos=(-448.60, 14.92, -388.30) -> Part | Pos=(477.18, 53.08, 62.50)
-[280.236] [CHANGED] ITEM.Workspace.Items.Sphere of fury.Handle : Part | Pos=(-448.60, 14.95, -388.30) -> Part | Pos=(477.18, 53.11, 62.50)
-[283.709] [CHANGED] ITEM.Workspace.Items.Speed Potion.Handle : Part | Pos=(269.31, 7.00, 418.20) -> Part | Pos=(273.44, 13.62, 418.86)
-[283.709] [CHANGED] ITEM.Workspace.Items.Speed Potion.Part : Part | Pos=(269.27, 7.00, 418.20) -> Part | Pos=(273.46, 13.62, 418.82)
-[283.709] [CHANGED] ITEM.Workspace.Items.Speed Potion.Holder : Part | Pos=(269.31, 7.00, 418.20) -> Part | Pos=(273.44, 13.62, 418.86)
-[283.709] [CHANGED] ITEM.Workspace.Items.Speed Potion.Bottom : Part | Pos=(268.66, 7.00, 418.20) -> Part | Pos=(273.72, 13.62, 418.27)
-[283.819] [CHANGED] ITEM.Workspace.Items.Speed Potion.Handle : Part | Pos=(273.44, 13.62, 418.86) -> Part | Pos=(274.38, 15.14, 419.01)
-[283.819] [CHANGED] ITEM.Workspace.Items.Speed Potion.Part : Part | Pos=(273.46, 13.62, 418.82) -> Part | Pos=(274.41, 15.15, 418.98)
-[283.819] [CHANGED] ITEM.Workspace.Items.Speed Potion.Holder : Part | Pos=(273.44, 13.62, 418.86) -> Part | Pos=(274.38, 15.14, 419.01)
-[283.819] [CHANGED] ITEM.Workspace.Items.Speed Potion.Bottom : Part | Pos=(273.72, 13.62, 418.27) -> Part | Pos=(274.89, 15.14, 418.61)
-[283.934] [CHANGED] ITEM.Workspace.Items.Speed Potion.Handle : Part | Pos=(274.38, 15.14, 419.01) -> Part | Pos=(274.56, 12.68, 418.68)
-[283.934] [CHANGED] ITEM.Workspace.Items.Speed Potion.Part : Part | Pos=(274.41, 15.15, 418.98) -> Part | Pos=(274.60, 12.68, 418.65)
-[283.934] [CHANGED] ITEM.Workspace.Items.Speed Potion.Holder : Part | Pos=(274.38, 15.14, 419.01) -> Part | Pos=(274.56, 12.68, 418.68)
-[283.934] [CHANGED] ITEM.Workspace.Items.Speed Potion.Bottom : Part | Pos=(274.89, 15.14, 418.61) -> Part | Pos=(275.07, 12.68, 418.28)
-[284.037] [REMOVED] ITEM.Workspace.Items.Speed Potion.Handle = Part | Pos=(274.56, 12.68, 418.68)
-[284.037] [REMOVED] ITEMMODEL.Workspace.Items.Speed Potion = Tool
-[284.037] [REMOVED] ITEM.Workspace.Items.Speed Potion.Part = Part | Pos=(274.60, 12.68, 418.65)
-[284.037] [REMOVED] ITEM.Workspace.Items.Speed Potion.Holder = Part | Pos=(274.56, 12.68, 418.68)
-[284.037] [REMOVED] ITEM.Workspace.Items.Speed Potion.Bottom = Part | Pos=(275.07, 12.68, 418.28)
+Killstreak Helper Report
+
+PlaceId: 6403373529
+JobId: c673a4b4-e764-4eca-85fa-0c8bf418884f
+
+Status: Stopped
+Runtime: 00:00:00
+Target: Player ([2450395023])
+Target Mode: PLAYER
+Auto-Reset: ON
+Reset Threshold: 3
+Current Ragdolls: 0
+Total Ragdolls: 8
+Resets: 1
+
+Debug:
+[15:21:34] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:34] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:34] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:34] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:34] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:34] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:35] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:36] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:37] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:38] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:39] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:40] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:41] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:42] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:42] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:42] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:42] Target resolved -> Riccardo_cane / [2450395023]
+[15:21:42] STOP button activated
+[15:21:42] stopHelper() called
+[15:21:42] Helper STOPPED
+[15:21:42] Main helper loop stopped
+[15:21:46] CharacterAdded -> Workspace.CosmicxisCursed
+[15:21:46] CharacterAdded -> Workspace.CosmicxisCursed
+[15:21:46] CharacterAdded -> Workspace.CosmicxisCursed
+[15:21:46] Character components ready
