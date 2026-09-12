@@ -1,10 +1,9 @@
 UserInputService = game:GetService("UserInputService")
 local IsOnMobile = table.find({
-    Enum.Platform.IOS,
-    Enum.Platform.Android
+	Enum.Platform.IOS,
+	Enum.Platform.Android
 }, UserInputService:GetPlatform())
-
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/XShadow-coder/debugger/refs/heads/main/fluent_interface_raw.luau"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
@@ -38,6 +37,13 @@ Discord:AddButton({
 local Debugs = Window:AddTab({
 	Title = "Debuggers",
 	Icon = "globe"
+})
+Debugs:AddButton({
+	Title = "IY",
+	Description = "Helps just noclip or doing things faster or fly or wtv",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end
 })
 Debugs:AddButton({
 	Title = "Dex",
