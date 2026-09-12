@@ -24,14 +24,14 @@ Discord:AddButton({
 	Title = "Discord Invite",
 	Description = "Copys Discord invite link",
 	Callback = function()
-		setclipboard("https://discord.gg/INSERISCI_LINK_QUI")
+		setclipboard(string)
 	end
 })
 Discord:AddButton({
 	Title = "Discord Invite OLD",
 	Description = "Copys OLD Discord invite link",
 	Callback = function()
-		setclipboard("https://discord.gg/INSERISCI_LINK_VECCHIO_QUI")
+		setclipboard(string2)
 	end
 })
 local Debugs = Window:AddTab({
@@ -168,36 +168,22 @@ ACBypass1:AddButton({
 		local players = game:GetService('Players')
 		local lplr = players.LocalPlayer
 		local lastCF, stop, heartbeatConnection
-		
 		local function start()
 			heartbeatConnection = game:GetService('RunService').Heartbeat:Connect(function()
 				if stop then
 					return 
 				end 
-				local char = lplr.Character
-				if char then
-					local hum = char:FindFirstChildOfClass('Humanoid')
-					if hum and hum.RootPart then
-						lastCF = hum.RootPart.CFrame
-					end
-				end
+				lastCF = lplr.Character:FindFirstChildOfClass('Humanoid').RootPart.CFrame
 			end)
-			
-			local char = lplr.Character
-			if char then
-				local hum = char:FindFirstChildOfClass('Humanoid')
-				if hum and hum.RootPart then
-					hum.RootPart:GetPropertyChangedSignal('CFrame'):Connect(function()
-						stop = true
-						hum.RootPart.CFrame = lastCF
-						game:GetService('RunService').Heartbeat:Wait()
-						stop = false
-					end)    
-					hum.Died:Connect(function()
-						heartbeatConnection:Disconnect()
-					end)
-				end
-			end
+			lplr.Character:FindFirstChildOfClass('Humanoid').RootPart:GetPropertyChangedSignal('CFrame'):Connect(function()
+				stop = true
+				lplr.Character:FindFirstChildOfClass('Humanoid').RootPart.CFrame = lastCF
+				game:GetService('RunService').Heartbeat:Wait()
+				stop = false
+			end)    
+			lplr.Character:FindFirstChildOfClass('Humanoid').Died:Connect(function()
+				heartbeatConnection:Disconnect()
+			end)
 		end
 
 		lplr.CharacterAdded:Connect(function(character)
@@ -211,9 +197,7 @@ ACBypass1:AddButton({
 		end)
 
 		lplr.CharacterRemoving:Connect(function()
-			if heartbeatConnection then
-				heartbeatConnection:Disconnect()
-			end
+			heartbeatConnection:Disconnect()
 		end)
 
 		start()
@@ -1075,10 +1059,10 @@ Debugs:AddInput("Input", {
 	Numeric = false, -- Only allows numbers
 	Finished = false, -- Only calls callback when you press enter
 	Callback = function(Value)
-		getgenv().UIPath = nil
+		local UIPath
 		for i,v in pairs(game:GetDescendants()) do
 			if v.Name == Value and v:IsA("ScreenGui") then
-				getgenv().UIPath = v
+				UIPath = v
 			end
 		end
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/guistealer.txt"))()
