@@ -1308,14 +1308,16 @@ local Settings = Window:AddTab({
 	Title = "Settings",
 	Icon = "settings"
 })
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+SaveManager:SetFolder("Debuggers/Configs")
+InterfaceManager:SetFolder("Debuggers")
+
 InterfaceManager:BuildInterfaceSection(Settings)
 
-SaveManager:SetLibrary(Fluent)
 SaveManager:IgnoreThemeSettings()
-SaveManager:SetIgnoreIndexes({
-	'TextboxIdentifier'
-})
-SaveManager:SetFolder("Debuggers/Configs")
+SaveManager:SetIgnoreIndexes({'TextboxIdentifier'})
 
 local Config = Window:AddTab({
 	Title = "Config",
