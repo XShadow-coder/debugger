@@ -21,17 +21,17 @@ local Discord = Window:AddTab({
 })
 local Options = Fluent.Options
 Discord:AddButton({
-	Title = "Discord Invite",
-	Description = "Copys Discord invite link",
+	Title = "Discord Invite 1",
+	Description = "Copys Discord invite 1 link",
 	Callback = function()
-		setclipboard(string)
+		setclipboard("https://discord.gg/qxbAbYkAuD")
 	end
 })
 Discord:AddButton({
-	Title = "Discord Invite OLD",
-	Description = "Copys OLD Discord invite link",
+	Title = "Discord Invite 2",
+	Description = "Copys Discord invite 2 link",
 	Callback = function()
-		setclipboard(string2)
+		setclipboard("https://discord.gg/qxbAbYkAuD")
 	end
 })
 local Debugs = Window:AddTab({
